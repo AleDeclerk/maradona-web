@@ -30,6 +30,7 @@ export interface PageMeta {
   fecha_actualizacion: string;
   image?: string;
   year?: string;
+  video?: string;
 }
 
 export interface Page extends PageMeta {
@@ -89,6 +90,7 @@ export function getAllPages(): Page[] {
         fecha_actualizacion: toDateStr(data.fecha_actualizacion),
         image: typeof data.image === "string" ? data.image : undefined,
         year: typeof data.year === "string" ? data.year : undefined,
+        video: typeof data.video === "string" ? data.video : undefined,
         content: parsed.content,
       });
     }

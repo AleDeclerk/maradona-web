@@ -1,6 +1,7 @@
 ---
 tags: [momento, mundial, gloria]
 tipo: momento
+video: "https://www.youtube.com/watch?v=94F_rDHO8ms"
 fuentes: ["gol-del-siglo-detalle", "argentina-inglaterra-1986", "wikipedia-en-data-complementaria"]
 fecha_creacion: 2026-05-14
 fecha_actualizacion: 2026-05-14

@@ -1,6 +1,7 @@
 ---
 tags: [momento, tv, post-jugador]
 tipo: momento
+video: "https://www.youtube.com/watch?v=x6SRak2X8t4"
 fuentes: ["wikipedia-es-diego-maradona", "wikipedia-en-data-complementaria"]
 fecha_creacion: 2026-05-14
 fecha_actualizacion: 2026-05-14

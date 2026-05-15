@@ -1,6 +1,7 @@
 ---
 tags: [momento, muerte, hito]
 tipo: momento
+video: "https://www.youtube.com/watch?v=KHwH9yIYdZw"
 fuentes: ["muerte-25-noviembre-2020", "wikipedia-es-diego-maradona", "gimnasia-la-plata-dt-2019-2020"]
 fecha_creacion: 2026-05-14
 fecha_actualizacion: 2026-05-14

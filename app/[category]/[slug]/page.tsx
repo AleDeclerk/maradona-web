@@ -92,6 +92,38 @@ export default async function WikiPage({ params }: PageProps) {
         <div className="mt-6 mx-auto w-24 h-px bg-ink" />
       </header>
 
+      {/* Video — si la página tiene uno */}
+      {page.video && (() => {
+        const m = page.video.match(/(?:v=|youtu\.be\/|embed\/)([\w-]+)/);
+        const id = m ? m[1] : null;
+        if (!id) return null;
+        return (
+          <div className="mb-10 max-w-3xl mx-auto">
+            <div className="relative w-full aspect-video border-2 border-ink shadow-[5px_5px_0_var(--color-sepia)] bg-ink">
+              <iframe
+                src={`https://www.youtube.com/embed/${id}`}
+                title={page.title}
+                className="absolute inset-0 w-full h-full"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+            <p className="mt-2 text-center font-mono text-[0.65rem] uppercase tracking-[0.14em] text-ink-muted">
+              ▶ Video del momento ·{" "}
+              <a
+                href={page.video}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link-grow text-blood"
+              >
+                abrir en YouTube
+              </a>
+            </p>
+          </div>
+        );
+      })()}
+
       {/* Body + sidebar */}
       <div className="grid grid-cols-1 md:grid-cols-[1fr_18rem] gap-10 lg:gap-14">
         <div className="prose-edit mx-auto md:mx-0">

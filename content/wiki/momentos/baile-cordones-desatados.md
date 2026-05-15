@@ -1,6 +1,7 @@
 ---
 tags: [momento, napoli, cultura]
 tipo: momento
+video: "https://www.youtube.com/watch?v=kucAggSb2gs"
 fuentes: ["wikipedia-es-diego-maradona"]
 fecha_creacion: 2026-05-14
 fecha_actualizacion: 2026-05-14
