@@ -16,7 +16,7 @@ year: "1986"
 
 ## Descripción del look
 
-Con Osvaldo Ardiles y los hijos en Londres, despedida de Tottenham vs. Milan. Saco/abrigo de Diego, look europeo.
+Con Ardiles y los hijos en Londres (despedida Tottenham). Saco/abrigo, look europeo.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Con Osvaldo Ardiles y los hijos en Londres, despedida de Tottenham vs. Milan. Sa
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

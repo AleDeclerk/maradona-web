@@ -8,15 +8,15 @@ image: "/moda-fotos/54-perilla-conferencia.jpg"
 year: "ca. 2010"
 ---
 
-# Ib Perilla Conferencia
+# Ib Perilla
 
 **Año:** ca. 2010
 
-![ib-perilla-conferencia](/moda-fotos/54-perilla-conferencia.jpg)
+![ib-perilla](/moda-fotos/54-perilla-conferencia.jpg)
 
 ## Descripción del look
 
-Conferencia de prensa con perilla y sonrisa. Look 'DT maduro'.
+Conferencia con **perilla y sonrisa**. Look 'DT maduro'.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Conferencia de prensa con perilla y sonrisa. Look 'DT maduro'.
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

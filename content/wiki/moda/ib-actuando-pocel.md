@@ -16,7 +16,7 @@ year: "1981"
 
 ## Descripción del look
 
-Actuando con Jorge Porcel en 'Te rompo el rating' o similar. Vestuario de película — Diego como actor.
+**Actuando con Jorge Porcel** en *Te rompo el rating*. Diego actor — vestuario de película.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Actuando con Jorge Porcel en 'Te rompo el rating' o similar. Vestuario de pelíc
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

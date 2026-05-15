@@ -16,7 +16,7 @@ year: "ca. 1986"
 
 ## Descripción del look
 
-Sonriendo en conferencia de prensa con los hermanos. Look semi formal.
+Conferencia de prensa sonriendo. Look semi formal con camisa.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Sonriendo en conferencia de prensa con los hermanos. Look semi formal.
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

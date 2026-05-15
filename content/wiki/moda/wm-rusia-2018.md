@@ -1,5 +1,5 @@
 ---
-tags: [moda, boina-rosa, blazer, look-viral, mundial-2018]
+tags: [moda, boina-rosa, blazer, bufanda, look-viral, mundial-2018]
 tipo: moda
 fuentes: ["wikimedia"]
 fecha_creacion: 2026-05-15
@@ -16,11 +16,11 @@ year: "2018"
 
 ## Descripción del look
 
-Mundial Rusia 2018. Boina rosa, blazer, bufanda. Uno de los looks más viralizados de los últimos años.
+Mundial Rusia 2018. **Boina rosa**, blazer y bufanda. Uno de sus looks más viralizados de los últimos años.
 
 ## Tags
 
-`moda` · `boina-rosa` · `blazer` · `look-viral` · `mundial-2018`
+`moda` · `boina-rosa` · `blazer` · `bufanda` · `look-viral` · `mundial-2018`
 
 ## Relaciones
 

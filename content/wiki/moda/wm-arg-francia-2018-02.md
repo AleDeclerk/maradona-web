@@ -16,7 +16,7 @@ year: "2018"
 
 ## Descripción del look
 
-Otra postal de la tribuna del Argentina-Francia 2018.
+Otra postal de la tribuna 2018.
 
 ## Tags
 

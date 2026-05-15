@@ -16,7 +16,7 @@ year: "2005"
 
 ## Descripción del look
 
-En 'La Noche del 10' con Joaquín Sabina y Charly García. Reunión histórica de la cultura rioplatense + español.
+Con **Joaquín Sabina y Charly García** en La Noche del 10. Reunión histórica cultura rioplatense + español.
 
 ## Tags
 
@@ -28,4 +28,4 @@ En 'La Noche del 10' con Joaquín Sabina y Charly García. Reunión histórica d
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

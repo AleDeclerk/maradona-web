@@ -1,5 +1,5 @@
 ---
-tags: [moda, sweater, casual, representante]
+tags: [moda, sweater-cuello-redondo, casual, representante]
 tipo: moda
 fuentes: ["wikimedia"]
 fecha_creacion: 2026-05-15
@@ -16,11 +16,11 @@ year: "1981"
 
 ## Descripción del look
 
-Con Cyterszpiler, su primer representante. Sweater de cuello redondo.
+Con Cyterszpiler, su primer representante. Sweater de cuello redondo, look casual de oficina.
 
 ## Tags
 
-`moda` · `sweater` · `casual` · `representante`
+`moda` · `sweater-cuello-redondo` · `casual` · `representante`
 
 ## Relaciones
 

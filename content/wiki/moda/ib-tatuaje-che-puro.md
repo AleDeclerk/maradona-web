@@ -16,7 +16,7 @@ year: "ca. 2005"
 
 ## Descripción del look
 
-Tatuaje del Che en el brazo, bandera argentina, puro habano. Foto-icono de la era anti-imperialista.
+**Tatuaje del Che** en el brazo, bandera argentina, puro habano. Era anti-imperialista.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Tatuaje del Che en el brazo, bandera argentina, puro habano. Foto-icono de la er
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

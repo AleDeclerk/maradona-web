@@ -1,5 +1,5 @@
 ---
-tags: [moda, sweater, hermanos, familia, decada-70]
+tags: [moda, sweater-tejido, hermanos, familia, decada-70]
 tipo: moda
 fuentes: ["wikimedia"]
 fecha_creacion: 2026-05-15
@@ -16,11 +16,11 @@ year: "1979"
 
 ## Descripción del look
 
-Diego con Hugo y Lalo. Trío de hermanos en sweaters de los 70.
+Diego con Hugo y Lalo. Trío de hermanos, sweaters tejidos años 70.
 
 ## Tags
 
-`moda` · `sweater` · `hermanos` · `familia` · `decada-70`
+`moda` · `sweater-tejido` · `hermanos` · `familia` · `decada-70`
 
 ## Relaciones
 

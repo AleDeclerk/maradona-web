@@ -16,7 +16,7 @@ year: "1981"
 
 ## Descripción del look
 
-Cara a cara con Freddie Mercury. Una de las fotos más improbables del 81.
+Cara a cara con Freddie Mercury. Crossover histórico fútbol-rock.
 
 ## Tags
 

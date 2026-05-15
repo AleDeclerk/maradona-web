@@ -1,5 +1,5 @@
 ---
-tags: [moda, remera-rock, encuentro-cultural, queen, freddie-mercury]
+tags: [moda, remera-rock, encuentro-cultural, queen, freddie-mercury, rock]
 tipo: moda
 fuentes: ["wikimedia"]
 fecha_creacion: 2026-05-15
@@ -16,11 +16,11 @@ year: "1981"
 
 ## Descripción del look
 
-Con Queen completo en Buenos Aires. Remera oscura, los Queen en su look new-wave. Crossover cultural improbable.
+Con Freddie Mercury, Brian May, Roger Taylor y John Deacon. Remera oscura — encuentro cultural improbable.
 
 ## Tags
 
-`moda` · `remera-rock` · `encuentro-cultural` · `queen` · `freddie-mercury`
+`moda` · `remera-rock` · `encuentro-cultural` · `queen` · `freddie-mercury` · `rock`
 
 ## Relaciones
 

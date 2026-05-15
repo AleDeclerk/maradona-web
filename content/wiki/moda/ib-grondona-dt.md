@@ -1,5 +1,5 @@
 ---
-tags: [moda, saco-gris, look-dt, grondona, seleccion-dt]
+tags: [moda, saco-gris, grondona, seleccion-dt]
 tipo: moda
 fuentes: ["infobae"]
 fecha_creacion: 2026-05-15
@@ -16,11 +16,11 @@ year: "2008"
 
 ## Descripción del look
 
-Con Julio Grondona en la presentación como DT de la Selección. Saco gris, look 'oficial'.
+Con Grondona en la presentación como DT. **Saco gris**, look 'oficial'.
 
 ## Tags
 
-`moda` · `saco-gris` · `look-dt` · `grondona` · `seleccion-dt`
+`moda` · `saco-gris` · `grondona` · `seleccion-dt`
 
 ## Relaciones
 
@@ -28,4 +28,4 @@ Con Julio Grondona en la presentación como DT de la Selección. Saco gris, look
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

@@ -1,5 +1,5 @@
 ---
-tags: [moda, casual, hermanos, familia, decada-70]
+tags: [moda, casual, campera-deportiva, hermanos, familia, decada-70]
 tipo: moda
 fuentes: ["wikimedia"]
 fecha_creacion: 2026-05-15
@@ -16,11 +16,11 @@ year: "1977"
 
 ## Descripción del look
 
-Diego con su hermano Raúl 'Lalo'. Look casual de pibes del conurbano — camperas deportivas, pelo lacio.
+Con su hermano Raúl 'Lalo'. Camperas deportivas de los 70, pelo lacio. Pibe de Fiorito.
 
 ## Tags
 
-`moda` · `casual` · `hermanos` · `familia` · `decada-70`
+`moda` · `casual` · `campera-deportiva` · `hermanos` · `familia` · `decada-70`
 
 ## Relaciones
 

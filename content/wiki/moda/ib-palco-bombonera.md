@@ -16,7 +16,7 @@ year: "post-2010"
 
 ## Descripción del look
 
-En el palco de la Bombonera apoyando a Boca. Look 'hincha vip + civil'.
+En el palco de la Bombonera. Look hincha vip + civil.
 
 ## Tags
 
@@ -28,4 +28,4 @@ En el palco de la Bombonera apoyando a Boca. Look 'hincha vip + civil'.
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

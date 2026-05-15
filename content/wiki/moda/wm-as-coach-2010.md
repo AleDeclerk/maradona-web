@@ -1,5 +1,5 @@
 ---
-tags: [moda, saco-gris, look-dt-formal, seleccion-dt, sudafrica-2010]
+tags: [moda, saco-gris, camisa-azul, look-dt-formal, seleccion-dt, sudafrica-2010]
 tipo: moda
 fuentes: ["wikimedia"]
 fecha_creacion: 2026-05-15
@@ -16,11 +16,11 @@ year: "2010"
 
 ## Descripción del look
 
-DT en Sudáfrica 2010. Saco gris oscuro, camisa azul. Look formal de banco mundialista.
+DT en Sudáfrica 2010. **Saco gris oscuro, camisa azul**. Look formal de banco mundialista.
 
 ## Tags
 
-`moda` · `saco-gris` · `look-dt-formal` · `seleccion-dt` · `sudafrica-2010`
+`moda` · `saco-gris` · `camisa-azul` · `look-dt-formal` · `seleccion-dt` · `sudafrica-2010`
 
 ## Relaciones
 

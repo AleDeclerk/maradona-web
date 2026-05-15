@@ -16,7 +16,7 @@ year: "ca. 1985"
 
 ## Descripción del look
 
-Pelo rizado y barba, look recurrente de los 80. La era 'rockstar latino' del Diego antes del 86.
+**Pelo rizado y barba**, look recurrente de los 80. Era 'rockstar latino' pre-Mundial 86.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Pelo rizado y barba, look recurrente de los 80. La era 'rockstar latino' del Die
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

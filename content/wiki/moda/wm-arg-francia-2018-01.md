@@ -1,5 +1,5 @@
 ---
-tags: [moda, look-tribuna, saco, mundial-2018]
+tags: [moda, saco, polo, look-tribuna, mundial-2018]
 tipo: moda
 fuentes: ["wikimedia"]
 fecha_creacion: 2026-05-15
@@ -16,11 +16,11 @@ year: "2018"
 
 ## Descripción del look
 
-En tribuna durante Argentina-Francia 2018. Saco, polo, gestos.
+Tribuna del Argentina-Francia 2018. Saco, polo. Look hincha vip.
 
 ## Tags
 
-`moda` · `look-tribuna` · `saco` · `mundial-2018`
+`moda` · `saco` · `polo` · `look-tribuna` · `mundial-2018`
 
 ## Relaciones
 

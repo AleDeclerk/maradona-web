@@ -16,7 +16,7 @@ year: "2005"
 
 ## Descripción del look
 
-Debut de 'La Noche del 10' (15-8-2005) con Pelé. Saco formal de TV, pelo corto. El Diego conductor.
+**Debut de La Noche del 10** con Pelé (15-8-2005). Saco formal de TV, pelo corto. Diego conductor.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Debut de 'La Noche del 10' (15-8-2005) con Pelé. Saco formal de TV, pelo corto.
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

@@ -16,7 +16,7 @@ year: "2010"
 
 ## Descripción del look
 
-Exequias de Néstor Kirchner, Casa Rosada (27/10/2010). Saco negro, camisa de luto.
+Exequias de Néstor Kirchner, Casa Rosada (27/10/2010). **Saco negro, camisa de luto**.
 
 ## Tags
 

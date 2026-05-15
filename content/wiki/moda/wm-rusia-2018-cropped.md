@@ -16,7 +16,7 @@ year: "2018"
 
 ## Descripción del look
 
-Rusia 2018 — detalle del look boina rosa.
+Detalle del look boina rosa Rusia 2018.
 
 ## Tags
 

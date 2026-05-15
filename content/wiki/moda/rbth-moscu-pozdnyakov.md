@@ -1,5 +1,5 @@
 ---
-tags: [moda, look-invernal, moscu, napoli, decada-90, rusia]
+tags: [moda, look-invernal, napoli, rusia]
 tipo: moda
 fuentes: ["russia-beyond"]
 fecha_creacion: 2026-05-15
@@ -16,11 +16,11 @@ year: "1990"
 
 ## Descripción del look
 
-Con Boris Pozdnyakov en Moscú durante el viaje del Napoli. Look invernal ruso.
+Con Boris Pozdnyakov en Moscú. Look invernal ruso.
 
 ## Tags
 
-`moda` · `look-invernal` · `moscu` · `napoli` · `decada-90` · `rusia`
+`moda` · `look-invernal` · `napoli` · `rusia`
 
 ## Relaciones
 
@@ -28,4 +28,4 @@ Con Boris Pozdnyakov en Moscú durante el viaje del Napoli. Look invernal ruso.
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Russia Beyond.

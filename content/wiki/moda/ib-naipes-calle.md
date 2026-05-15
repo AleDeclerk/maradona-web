@@ -16,7 +16,7 @@ year: "ca. 1980"
 
 ## Descripción del look
 
-Haciendo trucos con naipes en la calle. Look callejero — el pibe que aún no era leyenda mundial.
+Haciendo trucos con naipes en la calle. Look callejero pre-leyenda.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Haciendo trucos con naipes en la calle. Look callejero — el pibe que aún no e
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

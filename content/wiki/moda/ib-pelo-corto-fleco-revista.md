@@ -16,7 +16,7 @@ year: "ca. 1979"
 
 ## Descripción del look
 
-Producción para revista con pelo corto y fleco lateral. Look juvenil pre-Boca, pelo más prolijo que después.
+**Producción de revista** con pelo corto y fleco lateral. Look juvenil pre-Boca.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Producción para revista con pelo corto y fleco lateral. Look juvenil pre-Boca, 
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

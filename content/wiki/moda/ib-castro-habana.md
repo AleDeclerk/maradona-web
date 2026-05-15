@@ -1,5 +1,5 @@
 ---
-tags: [moda, buzo-deportivo, entrevistador, castro, cuba, politica]
+tags: [moda, buzo-deportivo, entrevistador, castro, cuba]
 tipo: moda
 fuentes: ["infobae"]
 fecha_creacion: 2026-05-15
@@ -16,11 +16,11 @@ year: "ca. 2000"
 
 ## Descripción del look
 
-Entrevistando a Fidel Castro en La Habana. Buzo deportivo, look casual de quien está en su segunda casa.
+**Entrevistando a Fidel Castro** en La Habana. Buzo deportivo, casual de su segunda casa.
 
 ## Tags
 
-`moda` · `buzo-deportivo` · `entrevistador` · `castro` · `cuba` · `politica`
+`moda` · `buzo-deportivo` · `entrevistador` · `castro` · `cuba`
 
 ## Relaciones
 
@@ -28,4 +28,4 @@ Entrevistando a Fidel Castro en La Habana. Buzo deportivo, look casual de quien 
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

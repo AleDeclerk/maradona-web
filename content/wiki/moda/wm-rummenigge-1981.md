@@ -16,7 +16,7 @@ year: "1981"
 
 ## Descripción del look
 
-Con Karl-Heinz Rummenigge. Diego saco azul, Rummenigge saco beige. Encuentro de balones de oro.
+Con Karl-Heinz Rummenigge. Saco azul vs. saco beige — encuentro de balones de oro.
 
 ## Tags
 

@@ -16,7 +16,7 @@ year: "2008"
 
 ## Descripción del look
 
-Alfombra roja en Cannes. Smoking, photographers en su cara. Look celebridad europea.
+**Alfombra roja en Cannes**. Smoking, photographers. Look celebridad europea.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Alfombra roja en Cannes. Smoking, photographers en su cara. Look celebridad euro
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

@@ -16,7 +16,7 @@ year: "2010"
 
 ## Descripción del look
 
-Retrato 2010 como DT. Camisa blanca, barba pinta-canas.
+Retrato 2010 como DT. Camisa blanca abierta, barba pinta-canas.
 
 ## Tags
 

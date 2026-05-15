@@ -16,7 +16,7 @@ year: "ca. 1982"
 
 ## Descripción del look
 
-Vestido formalmente con camisa, corbata y zapatos en un estadio. Look 'visita oficial' de figura pública joven.
+**Camisa, corbata y zapatos formales** en un estadio. Look 'visita oficial' joven.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Vestido formalmente con camisa, corbata y zapatos en un estadio. Look 'visita of
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

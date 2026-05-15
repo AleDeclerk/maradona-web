@@ -5,18 +5,18 @@ fuentes: ["infobae"]
 fecha_creacion: 2026-05-15
 fecha_actualizacion: 2026-05-15
 image: "/moda-fotos/03-familia-amigos.jpg"
-year: "1970s"
+year: "ca. 1975"
 ---
 
 # Ib Familia Amigos
 
-**Año:** 1970s
+**Año:** ca. 1975
 
 ![ib-familia-amigos](/moda-fotos/03-familia-amigos.jpg)
 
 ## Descripción del look
 
-Diego rodeado de familia y amigos en sus primeros años. Look casual de barrio.
+Rodeado de familia y amigos. Look casual de barrio.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Diego rodeado de familia y amigos en sus primeros años. Look casual de barrio.
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

@@ -16,7 +16,7 @@ year: "ca. 1995"
 
 ## Descripción del look
 
-Pelo totalmente rubio, gritando antes de subir al auto. Estilo glam-rebelde 90s.
+**Pelo totalmente rubio**, gritando antes de subir al auto. Glam-rebelde 90s.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Pelo totalmente rubio, gritando antes de subir al auto. Estilo glam-rebelde 90s.
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

@@ -16,7 +16,7 @@ year: "ca. 1980"
 
 ## Descripción del look
 
-Tomando mate con su padre Don Diego (Chitoro). Intimidad familiar, look hogareño absoluto. Una de las imágenes más tiernas del archivo.
+**Tomando mate con su padre Don Diego (Chitoro)**. Intimidad familiar absoluta. Una de las imágenes más tiernas del archivo.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Tomando mate con su padre Don Diego (Chitoro). Intimidad familiar, look hogareñ
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

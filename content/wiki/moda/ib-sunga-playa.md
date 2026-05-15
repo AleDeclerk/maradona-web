@@ -16,7 +16,7 @@ year: "ca. 1985"
 
 ## Descripción del look
 
-En sunga, vacaciones en la playa. Pelo largo mojado. Un 'look de playa' que pasó a la historia.
+**En sunga, vacaciones en la playa**. Pelo largo mojado. Look de playa icónico.
 
 ## Tags
 
@@ -28,4 +28,4 @@ En sunga, vacaciones en la playa. Pelo largo mojado. Un 'look de playa' que pas�
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

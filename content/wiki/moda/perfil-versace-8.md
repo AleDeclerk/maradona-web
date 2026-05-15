@@ -16,7 +16,7 @@ year: "ca. 1999"
 
 ## Descripción del look
 
-Versace nº 8. Cierre de la era 90s con su firma estética: camisa colorida + cadenas de oro.
+Cierre era 90s: Versace + cadenas de oro.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Versace nº 8. Cierre de la era 90s con su firma estética: camisa colorida + ca
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Marie Claire / Perfil.

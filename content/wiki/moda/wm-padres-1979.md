@@ -1,5 +1,5 @@
 ---
-tags: [moda, familia, padres, familia, fiorito]
+tags: [moda, pullover, familia, padres, fiorito]
 tipo: moda
 fuentes: ["wikimedia"]
 fecha_creacion: 2026-05-15
@@ -16,11 +16,11 @@ year: "1979"
 
 ## Descripción del look
 
-Con Chitoro y Tota, sus viejos. Postal familiar de los 70.
+Con Chitoro y Tota. Pulóver/buzo, look hogareño con los viejos.
 
 ## Tags
 
-`moda` · `familia` · `padres` · `familia` · `fiorito`
+`moda` · `pullover` · `familia` · `padres` · `fiorito`
 
 ## Relaciones
 

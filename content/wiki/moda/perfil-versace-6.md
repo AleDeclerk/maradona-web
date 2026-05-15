@@ -16,7 +16,7 @@ year: "ca. 1996"
 
 ## Descripción del look
 
-Versace nº 6. Look 'galán argentino' total — pelo planchado, camisa con estampado psicodélico.
+Versace psicodélica. Look galán argentino total.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Versace nº 6. Look 'galán argentino' total — pelo planchado, camisa con esta
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Marie Claire / Perfil.

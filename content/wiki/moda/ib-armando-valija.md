@@ -16,7 +16,7 @@ year: "ca. 1980"
 
 ## Descripción del look
 
-Armando la valija — viaje. Look en pantalón corto / camiseta, intimidad del antes de salir.
+Armando la valija para viajar. Intimidad del antes-de-salir.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Armando la valija — viaje. Look en pantalón corto / camiseta, intimidad del a
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

@@ -16,7 +16,7 @@ year: "ca. 1984"
 
 ## Descripción del look
 
-Tapado blanco contra el frío europeo. Uno de los outfits más reproducidos: el tapado Italia/España de invierno.
+**Tapado blanco** contra el frío europeo. Uno de los outfits más reproducidos.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Tapado blanco contra el frío europeo. Uno de los outfits más reproducidos: el 
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

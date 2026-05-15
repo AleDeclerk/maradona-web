@@ -16,7 +16,7 @@ year: "ca. 1997"
 
 ## Descripción del look
 
-Versace nº 7. Producción fotográfica de la era 'amabassador de la marca'.
+Producción fotográfica era Versace ambassador.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Versace nº 7. Producción fotográfica de la era 'amabassador de la marca'.
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Marie Claire / Perfil.

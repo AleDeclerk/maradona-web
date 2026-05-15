@@ -1,5 +1,5 @@
 ---
-tags: [moda, remera-stop-bush, militante, chavez, alca, politica]
+tags: [moda, remera-stop-bush, militante, chavez, alca]
 tipo: moda
 fuentes: ["infobae"]
 fecha_creacion: 2026-05-15
@@ -16,11 +16,11 @@ year: "2005"
 
 ## Descripción del look
 
-Con Hugo Chávez en la Cumbre de los Pueblos, Mar del Plata. Remera 'Stop Bush'. Look militante.
+Con Hugo Chávez en Mar del Plata. **Remera 'Stop Bush'**, look militante.
 
 ## Tags
 
-`moda` · `remera-stop-bush` · `militante` · `chavez` · `alca` · `politica`
+`moda` · `remera-stop-bush` · `militante` · `chavez` · `alca`
 
 ## Relaciones
 
@@ -28,4 +28,4 @@ Con Hugo Chávez en la Cumbre de los Pueblos, Mar del Plata. Remera 'Stop Bush'.
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

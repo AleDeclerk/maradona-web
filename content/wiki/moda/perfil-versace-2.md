@@ -1,5 +1,5 @@
 ---
-tags: [moda, camisa-versace, estampado, versace, moda-90s]
+tags: [moda, camisa-versace, versace]
 tipo: moda
 fuentes: ["marie-claire"]
 fecha_creacion: 2026-05-15
@@ -16,11 +16,11 @@ year: "ca. 1996"
 
 ## Descripción del look
 
-Otra Versace estampada. Cada camisa era pieza de colección — Tito Samelnik, su modisto, contaba que Diego no repetía atuendos.
+Otra Versace estampada. Tito Samelnik: 'Diego no repetía atuendos'.
 
 ## Tags
 
-`moda` · `camisa-versace` · `estampado` · `versace` · `moda-90s`
+`moda` · `camisa-versace` · `versace`
 
 ## Relaciones
 
@@ -28,4 +28,4 @@ Otra Versace estampada. Cada camisa era pieza de colección — Tito Samelnik, s
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Marie Claire / Perfil.

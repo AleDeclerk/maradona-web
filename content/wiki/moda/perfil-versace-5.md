@@ -16,7 +16,7 @@ year: "ca. 1998"
 
 ## Descripción del look
 
-Versace nº 5. Estampado pop con palmeras o geometría — su seña de identidad mediática de los 90.
+Versace pop con palmeras o geometría.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Versace nº 5. Estampado pop con palmeras o geometría — su seña de identidad
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Marie Claire / Perfil.

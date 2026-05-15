@@ -1,5 +1,5 @@
 ---
-tags: [moda, camisa-versace, joyas, versace, moda-90s]
+tags: [moda, camisa-versace, joyas, versace]
 tipo: moda
 fuentes: ["marie-claire"]
 fecha_creacion: 2026-05-15
@@ -16,11 +16,11 @@ year: "ca. 1997"
 
 ## Descripción del look
 
-Versace nº 3. Era de máximo despliegue: jeans XS de marca, camisas con estampados geométricos, joyas (anillos, cadenas, aros de diamante).
+Versace + joyas (anillos, cadenas, aros de diamante).
 
 ## Tags
 
-`moda` · `camisa-versace` · `joyas` · `versace` · `moda-90s`
+`moda` · `camisa-versace` · `joyas` · `versace`
 
 ## Relaciones
 
@@ -28,4 +28,4 @@ Versace nº 3. Era de máximo despliegue: jeans XS de marca, camisas con estampa
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Marie Claire / Perfil.

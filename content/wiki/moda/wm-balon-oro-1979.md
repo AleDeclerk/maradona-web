@@ -16,7 +16,7 @@ year: "1979"
 
 ## Descripción del look
 
-Con el Balón de Oro Sub-20. Saco/blazer formal, primer evento de 'gala' a los 18.
+Con el Balón de Oro Sub-20. Saco/blazer formal a los 18 años. Primer evento de 'gala'.
 
 ## Tags
 

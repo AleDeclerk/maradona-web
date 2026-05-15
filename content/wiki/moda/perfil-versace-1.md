@@ -1,5 +1,5 @@
 ---
-tags: [moda, camisa-versace, estampado-llamativo, decada-90, versace, moda-90s]
+tags: [moda, camisa-versace, estampado-llamativo, versace, moda-90s]
 tipo: moda
 fuentes: ["marie-claire"]
 fecha_creacion: 2026-05-15
@@ -16,11 +16,11 @@ year: "ca. 1995"
 
 ## Descripción del look
 
-Camisa Versace estampada, look icónico de los 90. Fanatismo declarado por el diseñador italiano. 'La familia de oro, El Diego by Versace' fue su título en la revista D'Mode.
+**Camisa Versace estampada**. Era 'La familia de oro, El Diego by Versace' (D'Mode).
 
 ## Tags
 
-`moda` · `camisa-versace` · `estampado-llamativo` · `decada-90` · `versace` · `moda-90s`
+`moda` · `camisa-versace` · `estampado-llamativo` · `versace` · `moda-90s`
 
 ## Relaciones
 
@@ -28,4 +28,4 @@ Camisa Versace estampada, look icónico de los 90. Fanatismo declarado por el di
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Marie Claire / Perfil.

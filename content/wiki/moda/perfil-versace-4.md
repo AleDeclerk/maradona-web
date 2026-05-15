@@ -16,7 +16,7 @@ year: "ca. 1995"
 
 ## Descripción del look
 
-Versace nº 4. Diseños con leopardo o geométricos — el guiño a la extravagancia de Gianni Versace.
+Versace con diseño leopardo/geométrico.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Versace nº 4. Diseños con leopardo o geométricos — el guiño a la extravaga
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Marie Claire / Perfil.

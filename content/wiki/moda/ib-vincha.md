@@ -16,7 +16,7 @@ year: "ca. 2000"
 
 ## Descripción del look
 
-Con vincha. Look post-rehabilitación, depilado, deportivo. Reset físico tras Cuba.
+**Con vincha**. Look post-rehabilitación, deportivo. Reset físico tras Cuba.
 
 ## Tags
 
@@ -28,4 +28,4 @@ Con vincha. Look post-rehabilitación, depilado, deportivo. Reset físico tras C
 
 ## Crédito
 
-Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016). Uso editorial.
+Imagen vía Infobae 'En sus 56 años, 56 looks de Diego Maradona' (2016).

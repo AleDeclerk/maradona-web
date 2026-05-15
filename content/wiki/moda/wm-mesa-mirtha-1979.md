@@ -1,5 +1,5 @@
 ---
-tags: [moda, saco-tv, almuerzo-tv, mirtha-legrand, tv]
+tags: [moda, saco-tv, camisa, almuerzo-tv, mirtha-legrand, tv]
 tipo: moda
 fuentes: ["wikimedia"]
 fecha_creacion: 2026-05-15
@@ -16,11 +16,11 @@ year: "1979"
 
 ## Descripción del look
 
-Almuerzo en la mesa de Mirtha Legrand. Saco oscuro sobre camisa — TV argentina formal de los 70.
+En la mesa de Mirtha Legrand. Saco oscuro sobre camisa, look TV formal años 70.
 
 ## Tags
 
-`moda` · `saco-tv` · `almuerzo-tv` · `mirtha-legrand` · `tv`
+`moda` · `saco-tv` · `camisa` · `almuerzo-tv` · `mirtha-legrand` · `tv`
 
 ## Relaciones
 
