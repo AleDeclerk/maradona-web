@@ -4,248 +4,205 @@ import { getPagesByCategory } from "@/lib/wiki";
 export const metadata = {
   title: "Stickers · Maradona",
   description:
-    "100 stickers tipográficos de Diego — diseñados in-house con las frases canónicas. Pulsá uno y entrá al contexto.",
+    "Stickers visuales de Diego — foto + frase encima.",
 };
 
-type Variant =
-  | "paper"
-  | "blood"
-  | "sun"
-  | "celeste"
-  | "ink"
-  | "warm"
-  | "stamp"
-  | "ten";
+type Overlay = "blood" | "ink" | "celeste" | "sun" | "paper" | "warm" | "stamp" | "ten";
 
 interface Sticker {
   text: string;
-  variant: Variant;
+  overlay: Overlay;
   small?: string;
   year?: string;
-  slug?: string; // link a página existente del vault
+  img: string;
 }
 
+const WM = (file: string) =>
+  `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}`;
+
 const STICKERS: Sticker[] = [
-  // Mítica top
-  { text: "La pelota no se mancha", variant: "paper", year: "2001", slug: "la-pelota-no-se-mancha-sticker" },
-  { text: "Me cortaron las piernas", variant: "blood", year: "1994", slug: "me-cortaron-las-piernas-sticker" },
-  { text: "Fue la mano de Dios", variant: "ink", year: "1986", slug: "mano-de-dios-sticker" },
-  { text: "Barrilete cósmico", variant: "celeste", year: "1986", slug: "barrilete-cosmico" },
-  { text: "D10S", variant: "blood", year: "—", slug: "d10s" },
-  { text: "Que la chupen", variant: "sun", year: "2009", slug: "que-la-chupen-sticker" },
-  { text: "Toqué el cielo con las manos", variant: "warm", year: "1976" },
-  { text: "La bronca es mi combustible", variant: "ink", year: "1995" },
-
-  // Frases largas que entran cortas
-  { text: "Mis sueños son dos", variant: "paper", year: "1970", small: "Jugar y salir campeón del Mundial" },
-  { text: "Pelé hubo uno solo", variant: "stamp", year: "1986", small: "Los demás venimos en segunda línea" },
-  { text: "Te voy a contar un secreto, Shilton", variant: "blood", year: "1998", small: "Fue con la mano" },
-  { text: "Grondona me mintió", variant: "ink", year: "2010", small: "Bilardo me traicionó" },
-  { text: "Pase lo que pase, la 10 es mía", variant: "celeste", year: "1995" },
-  { text: "Dalma y Gianinna son mis ojos", variant: "warm", year: "1996" },
-  { text: "Sin Claudia, estaría en el jonca", variant: "paper", year: "1996" },
-
-  // Insultos y bromas
-  { text: "Gordito", variant: "sun", year: "1980", small: "Le voy a meter cuatro" },
-  { text: "Cartonero Báez", variant: "ink", year: "1996", small: "Macri en Boca" },
-  { text: "Cabeza de termo", variant: "blood", year: "1996", small: "Clinton no me deja entrar" },
-  { text: "Se le escapó la tortuga", variant: "warm", year: "1997", small: "A Grondona" },
-  { text: "Segurola y Habana 4310", variant: "celeste", year: "1995", small: "Séptimo piso" },
-  { text: "Coppola fuma debajo del agua", variant: "paper", year: "2000" },
-  { text: "Verón tiene más faltas que Gianinna", variant: "stamp", year: "2000" },
-  { text: "Pelé debutó con un pibe", variant: "ink", year: "2000" },
-  { text: "Más solo que Kung Fú", variant: "sun", year: "2000", small: "En Cuba" },
-  { text: "Le pongo El Chavo", variant: "warm", year: "2001", small: "y se me pasa el bajón" },
-
-  // Política
-  { text: "Bush es un asesino", variant: "blood", year: "2005", small: "Prefiero a Fidel" },
-  { text: "Soy izquierdista", variant: "ink", year: "2005", small: "De pie, de fe y de cerebro" },
-  { text: "Stop Bush", variant: "blood", year: "2005", small: "Mar del Plata" },
-  { text: "ALCA al carajo", variant: "sun", year: "2005", small: "Cumbre 2005" },
-  { text: "Fui, soy y seré peronista", variant: "celeste", year: "—" },
-  { text: "Echemos a Bush", variant: "blood", year: "2005" },
-
-  // Identidad
-  { text: "Yo nací en Lanús", variant: "paper", year: "—" },
-  { text: "Crecí en un barrio privado", variant: "warm", year: "2004", small: "De luz, agua y teléfono" },
-  { text: "Cabecita negra", variant: "ink", year: "—", small: "Nunca renegué de mis orígenes" },
-  { text: "Blanco o negro, gris jamás", variant: "stamp", year: "2009" },
-  { text: "Pelusa", variant: "sun", year: "—", small: "El apodo que más me va" },
-  { text: "Tota y Chitoro", variant: "warm", year: "—", small: "Mis viejos" },
-
-  // Iglesia y mística
-  { text: "10", variant: "ten", year: "—", small: "Eterna" },
-  { text: "San Diego", variant: "stamp", year: "—", small: "De Fiorito" },
-  { text: "Aunque estés muerto, te sigo amando", variant: "blood", year: "2005", slug: "santo-popular" },
-  { text: "Iglesia Maradoniana", variant: "celeste", year: "1998", small: "Rosario, 30/10/1998" },
-  { text: "Topo Gigio", variant: "sun", year: "1996", slug: "topo-gigio" },
-
-  // Mundial 86
-  { text: "México 86", variant: "paper", year: "1986", small: "Campeón del Mundo" },
-  { text: "Hijos de puta, ¡no!", variant: "blood", year: "1986", small: "Cumbia en el Azteca" },
-  { text: "Habían matado pibes argentinos", variant: "ink", year: "1986", small: "Esto fue una revancha" },
-  { text: "Argentina 2 - Inglaterra 1", variant: "celeste", year: "22/06/1986" },
-  { text: "Levanté la copa en el Azteca", variant: "sun", year: "1986" },
-
-  // Italia / Napoli
-  { text: "Forza Napoli", variant: "celeste", year: "1987" },
-  { text: "El sur se siente italiano solo para el fútbol", variant: "warm", year: "1990" },
-  { text: "La vendetta se cumplió", variant: "blood", year: "1991", small: "Doping de Matarrese" },
-  { text: "Mi Napoli a esta Juve le hacía cuatro", variant: "stamp", year: "—" },
-  { text: "Stadio Diego Armando Maradona", variant: "celeste", year: "2020" },
-  { text: "Live is Life", variant: "sun", year: "1989", small: "Cordones desatados" },
-
-  // Boca
-  { text: "Bostero", variant: "sun", year: "—" },
-  { text: "Le agradezco a Dios que me haya hecho de Boca", variant: "ink", year: "2001" },
-  { text: "Templo del fútbol", variant: "warm", year: "2001", small: "La Bombonera" },
-  { text: "Boca - River, distinto a todo", variant: "celeste", year: "—" },
-  { text: "Como dormir con Julia Roberts", variant: "blood", year: "—", small: "Un Boca-River" },
-
-  // Drogas / lucha
-  { text: "10 años sin tomar drogas", variant: "paper", year: "2013" },
-  { text: "Si no me hubiera drogado", variant: "ink", year: "—", small: "Qué jugador hubiese sido" },
-  { text: "La droga te mata", variant: "blood", year: "1996" },
-  { text: "Pac-Man de la familia", variant: "stamp", year: "1996" },
-
-  // Existenciales
-  { text: "Si me muero quiero volver a nacer futbolista", variant: "warm", year: "1992" },
-  { text: "Los que me creían muerto, que se jodan", variant: "blood", year: "—" },
-  { text: "Cuarenta años que valen setenta", variant: "celeste", year: "2000" },
-  { text: "He vivido más de lo que pude soñar", variant: "paper", year: "2020" },
-  { text: "Esto es demasiado para una persona", variant: "warm", year: "2001" },
-
-  // Periodismo
-  { text: "Vos también la tenés adentro", variant: "blood", year: "2009", small: "A Pasman" },
-  { text: "Estos putos periodistas", variant: "ink", year: "2009" },
-  { text: "Niembro: yo abandono", variant: "sun", year: "2004" },
-  { text: "Pelicortis", variant: "celeste", year: "1995", small: "Repudio a los rapados" },
-  { text: "Historia con pelo largo", variant: "stamp", year: "1995", small: "Vs. Passarella" },
-
-  // Familia
-  { text: "Mi vieja decía que le dolía la panza", variant: "warm", year: "2003", small: "No comía para darnos de comer" },
-  { text: "Le agradezco a Dalma y Gianinna", variant: "paper", year: "—" },
-
-  // FIFA / dirigentes
-  { text: "Havelange waterpolo", variant: "blood", year: "—" },
-  { text: "Hijos de puta", variant: "ink", year: "1990", small: "FIFA" },
-  { text: "Blatter, hijo de puta", variant: "blood", year: "—" },
-  { text: "Prefiero ser huérfano a miembro de FIFA", variant: "ink", year: "—" },
-
-  // Cuba y exilio
-  { text: "Bailaba con lobos en La Habana", variant: "warm", year: "—", small: "La Pradera 2000" },
-  { text: "En Cuba jugando al golf", variant: "celeste", year: "2003", small: "En mi puta vida pensé" },
-  { text: "Tatuaje del Che", variant: "blood", year: "—", slug: "tatuaje-che" },
-  { text: "Fidel en la pierna", variant: "ink", year: "—" },
-
-  // Apodos
-  { text: "Barrilete", variant: "celeste", year: "—" },
-  { text: "El Pibe de Oro", variant: "sun", year: "—" },
-  { text: "Pelusa", variant: "warm", year: "—" },
-  { text: "El Diez", variant: "stamp", year: "—" },
-  { text: "El Diego", variant: "paper", year: "—" },
-
-  // Reflexión final
-  { text: "Quiero que la gente me siga queriendo", variant: "warm", year: "2020", small: "Última entrevista" },
-  { text: "El fútbol me dio todo", variant: "paper", year: "2020" },
-  { text: "Esto es lo peor que nos pudo pasar", variant: "ink", year: "2020", small: "Pandemia" },
-
-  // Mundial 78 y exclusión
-  { text: "Menotti me dejó afuera del 78", variant: "blood", year: "1978" },
-  { text: "El cuarto 10", variant: "ink", year: "1978", small: "Lo que pensó Menotti" },
-
-  // Tácticos / fútbol
-  { text: "Bailar con tu hermana", variant: "stamp", year: "2001", small: "No poder patear al arco" },
-  { text: "Telegrama", variant: "warm", year: "1997", small: "Menos palabras que" },
-  { text: "Foto carnet", variant: "celeste", year: "1997", small: "Tengo menos piernas que" },
-
-  // Levantando
-  { text: "Levantando la Copa", variant: "sun", year: "1986", slug: "levantando-la-copa" },
-  { text: "Mano de Dios", variant: "ink", year: "1986", slug: "mano-de-dios-sticker" },
-  { text: "Pim, pam, palo, travesaño", variant: "warm", year: "2004", small: "Vs. Brasil Italia 90" },
-
-  // Generales
-  { text: "Diego Armando Maradona", variant: "blood", year: "1960–2020" },
-  { text: "Villa Fiorito", variant: "warm", year: "—" },
-  { text: "Las 7 canchitas", variant: "sun", year: "—" },
-  { text: "Cebollitas", variant: "celeste", year: "1973–74", small: "Invicto 136 partidos" },
-  { text: "Argentinos Juniors", variant: "paper", year: "1976–81" },
+  { text: "La pelota no se mancha", overlay: "paper", year: "2001", img: "/moda-fotos/41-palco-bombonera.jpg" },
+  { text: "Me cortaron las piernas", overlay: "blood", year: "1994", img: "/moda-fotos/22-abrigo-blanco-frio.jpg" },
+  { text: "Fue la mano de Dios", overlay: "ink", year: "1986", img: WM("Maradona_mano_de_dios.jpg") },
+  { text: "Barrilete cósmico", overlay: "celeste", year: "1986", img: WM("Maradona_eludiendo_shilton.jpg") },
+  { text: "D10S", overlay: "blood", year: "—", img: WM("Maradona-Mundial_86_con_la_copa.JPG") },
+  { text: "Que la chupen", overlay: "sun", year: "2009", img: "/moda-fotos/50-grondona-presentacion-dt.jpg" },
+  { text: "Toqué el cielo con las manos", overlay: "warm", year: "1976", img: "/moda-fotos/01-cebollita.jpg" },
+  { text: "La bronca es mi combustible", overlay: "ink", year: "1995", img: "/moda-fotos/37-rubio-total-grito.jpg" },
+  { text: "Mis sueños son dos", overlay: "paper", year: "1970", small: "Jugar y salir campeón", img: "/moda-fotos/02-vacaciones-familia-1970.jpg" },
+  { text: "Pelé hubo uno solo", overlay: "stamp", year: "1986", small: "Los demás, segunda línea", img: WM("Maradona_pele_1979.jpg") },
+  { text: "Te voy a contar un secreto, Shilton", overlay: "blood", year: "1998", small: "Fue con la mano", img: WM("Maradona_shilton.jpg") },
+  { text: "Grondona me mintió", overlay: "ink", year: "2010", small: "Bilardo me traicionó", img: "/moda-fotos/50-grondona-presentacion-dt.jpg" },
+  { text: "La 10 es mía", overlay: "celeste", year: "1995", img: WM("Maradona_con_la_10_de_belgrano.jpg") },
+  { text: "Dalma y Gianinna son mis ojos", overlay: "warm", year: "1996", img: "/moda-fotos/03-familia-amigos.jpg" },
+  { text: "Sin Claudia, estaría en el jonca", overlay: "paper", year: "1996", img: "/moda-fotos/02-vacaciones-familia-1970.jpg" },
+  { text: "Gordito", overlay: "sun", year: "1980", small: "Le voy a meter cuatro", img: "/moda-fotos/11-naipes-calle.jpg" },
+  { text: "Cartonero Báez", overlay: "ink", year: "1996", small: "Macri en Boca", img: "/moda-fotos/41-palco-bombonera.jpg" },
+  { text: "Cabeza de termo", overlay: "blood", year: "1996", small: "Clinton no me deja entrar", img: "/moda-fotos/37-rubio-total-grito.jpg" },
+  { text: "Se le escapó la tortuga", overlay: "warm", year: "1997", small: "A Grondona", img: "/moda-fotos/50-grondona-presentacion-dt.jpg" },
+  { text: "Segurola y Habana 4310", overlay: "celeste", year: "1995", small: "Séptimo piso", img: "/moda-fotos/37-rubio-total-grito.jpg" },
+  { text: "Coppola fuma debajo del agua", overlay: "paper", year: "2000", img: "/moda-fotos/45-sabina-charly-noche-10.jpg" },
+  { text: "Pelé debutó con un pibe", overlay: "ink", year: "2000", img: WM("Maradona_pele_1979.jpg") },
+  { text: "Más solo que Kung Fú", overlay: "sun", year: "2000", small: "En Cuba", img: "/moda-fotos/44-castro-habana.jpg" },
+  { text: "Le pongo El Chavo", overlay: "warm", year: "2001", small: "Y se me pasa el bajón", img: "/moda-fotos/45-sabina-charly-noche-10.jpg" },
+  { text: "Bush es un asesino", overlay: "blood", year: "2005", small: "Prefiero a Fidel", img: "/moda-fotos/43-chavez-mar-del-plata-2005.jpg" },
+  { text: "Soy izquierdista", overlay: "ink", year: "2005", small: "De pie, de fe y de cerebro", img: "/moda-fotos/49-tatuaje-che-puro-bandera.jpg" },
+  { text: "Stop Bush", overlay: "blood", year: "2005", small: "Mar del Plata", img: "/moda-fotos/43-chavez-mar-del-plata-2005.jpg" },
+  { text: "ALCA al carajo", overlay: "sun", year: "2005", small: "Cumbre 2005", img: "/moda-fotos/43-chavez-mar-del-plata-2005.jpg" },
+  { text: "Peronista", overlay: "celeste", year: "—", small: "Fui, soy y seré", img: "/moda-fotos/49-tatuaje-che-puro-bandera.jpg" },
+  { text: "Echemos a Bush", overlay: "blood", year: "2005", img: "/moda-fotos/43-chavez-mar-del-plata-2005.jpg" },
+  { text: "Crecí en un barrio privado", overlay: "warm", year: "2004", small: "De luz, agua y teléfono", img: "/moda-fotos/02-vacaciones-familia-1970.jpg" },
+  { text: "Cabecita negra", overlay: "ink", year: "—", small: "Nunca renegué de mis orígenes", img: WM("Diego_y_raul_maradona.jpg") },
+  { text: "Blanco o negro", overlay: "stamp", year: "2009", small: "Gris jamás", img: "/moda-fotos/54-perilla-conferencia.jpg" },
+  { text: "Pelusa", overlay: "sun", year: "—", small: "El apodo que más me va", img: "/moda-fotos/09-pelo-corto-fleco-revista.jpg" },
+  { text: "Tota y Chitoro", overlay: "warm", year: "—", small: "Mis viejos", img: "/moda-fotos/17-mate-con-don-diego.jpg" },
+  { text: "10", overlay: "ten", year: "—", small: "Eterna", img: WM("Maradona-Mundial_86_con_la_copa.JPG") },
+  { text: "San Diego de Fiorito", overlay: "stamp", year: "—", img: WM("Street_in_Napoli_(3).jpg") },
+  { text: "Te sigo amando", overlay: "blood", year: "2005", small: "Aunque estés muerto", img: "/moda-fotos/42-debut-tv-pele-noche-10.jpg" },
+  { text: "Iglesia Maradoniana", overlay: "celeste", year: "1998", small: "Rosario, 30/10", img: WM("Maradona_besa_camiseta.jpg") },
+  { text: "Topo Gigio", overlay: "sun", year: "1996", img: "/moda-fotos/41-palco-bombonera.jpg" },
+  { text: "México 86", overlay: "paper", year: "1986", small: "Campeón del Mundo", img: WM("Maradona-Mundial_86_con_la_copa.JPG") },
+  { text: "Revancha de Malvinas", overlay: "ink", year: "1986", img: WM("Maradona_celebrating_after_goal_of_century.jpg") },
+  { text: "Argentina 2 - Inglaterra 1", overlay: "celeste", year: "22/06/86", img: WM("Maradona_eludiendo_shilton.jpg") },
+  { text: "Levanté la copa en el Azteca", overlay: "sun", year: "1986", img: WM("Maradona-Mundial_86_con_la_copa.JPG") },
+  { text: "Forza Napoli", overlay: "celeste", year: "1987", img: WM("Diego_Maradona_Napoli.JPG") },
+  { text: "Sur italiano solo para el fútbol", overlay: "warm", year: "1990", img: "/moda-fotos/61-moscu-piel-1990.jpg" },
+  { text: "La vendetta se cumplió", overlay: "blood", year: "1991", small: "Doping de Matarrese", img: WM("Diego_Maradona_Napoli.JPG") },
+  { text: "Stadio Diego Armando Maradona", overlay: "celeste", year: "2020", img: WM("Street_in_Napoli_(3).jpg") },
+  { text: "Live is Life", overlay: "sun", year: "1989", small: "Cordones desatados", img: WM("Diego_Maradona_Napoli.JPG") },
+  { text: "Templo del fútbol", overlay: "warm", year: "2001", small: "La Bombonera", img: "/moda-fotos/41-palco-bombonera.jpg" },
+  { text: "Boca - River, distinto a todo", overlay: "celeste", year: "—", img: "/moda-fotos/41-palco-bombonera.jpg" },
+  { text: "Como dormir con Julia Roberts", overlay: "blood", year: "—", small: "Un Boca-River", img: "/moda-fotos/41-palco-bombonera.jpg" },
+  { text: "10 años sin tomar drogas", overlay: "paper", year: "2013", img: "/moda-fotos/40-vincha.jpg" },
+  { text: "Qué jugador hubiera sido", overlay: "ink", year: "—", small: "Sin la droga", img: "/moda-fotos/30-pelo-suelto-sevilla.jpg" },
+  { text: "La droga te mata", overlay: "blood", year: "1996", img: "/moda-fotos/44-castro-habana.jpg" },
+  { text: "Volver a nacer futbolista", overlay: "warm", year: "1992", small: "Si me muero", img: "/moda-fotos/24-cinta-de-correr.jpg" },
+  { text: "Los que me creían muerto", overlay: "blood", year: "—", small: "Que se jodan", img: "/moda-fotos/37-rubio-total-grito.jpg" },
+  { text: "Cuarenta años valen setenta", overlay: "celeste", year: "2000", img: "/moda-fotos/44-castro-habana.jpg" },
+  { text: "Esto es demasiado para una persona", overlay: "warm", year: "2001", img: "/moda-fotos/42-debut-tv-pele-noche-10.jpg" },
+  { text: "Vos también la tenés adentro", overlay: "blood", year: "2009", small: "A Pasman", img: "/moda-fotos/54-perilla-conferencia.jpg" },
+  { text: "Estos putos periodistas", overlay: "ink", year: "2009", img: "/moda-fotos/54-perilla-conferencia.jpg" },
+  { text: "Pelicortis", overlay: "celeste", year: "1995", small: "Repudio a los rapados", img: "/moda-fotos/37-rubio-total-grito.jpg" },
+  { text: "Pelo largo", overlay: "stamp", year: "1995", small: "Historia del fútbol argentino", img: "/moda-fotos/37-rubio-total-grito.jpg" },
+  { text: "Mate con el viejo", overlay: "warm", year: "—", img: "/moda-fotos/17-mate-con-don-diego.jpg" },
+  { text: "Le agradezco a Dalma y Gianinna", overlay: "paper", year: "—", img: "/moda-fotos/35-con-dalma-bombonera.jpg" },
+  { text: "Havelange waterpolo", overlay: "blood", year: "—", img: "/moda-fotos/50-grondona-presentacion-dt.jpg" },
+  { text: "FIFA hijos de puta", overlay: "ink", year: "1990", img: "/moda-fotos/50-grondona-presentacion-dt.jpg" },
+  { text: "Blatter, hijo de puta", overlay: "blood", year: "—", img: "/moda-fotos/54-perilla-conferencia.jpg" },
+  { text: "Bailaba con lobos en La Habana", overlay: "warm", year: "—", small: "La Pradera 2000", img: "/moda-fotos/44-castro-habana.jpg" },
+  { text: "Tatuaje del Che", overlay: "blood", year: "—", img: "/moda-fotos/49-tatuaje-che-puro-bandera.jpg" },
+  { text: "Fidel en la pierna", overlay: "ink", year: "—", img: "/moda-fotos/44-castro-habana.jpg" },
+  { text: "Barrilete", overlay: "celeste", year: "—", img: WM("Maradona_celebrating_after_goal_of_century.jpg") },
+  { text: "El Pibe de Oro", overlay: "sun", year: "—", img: "/moda-fotos/01-cebollita.jpg" },
+  { text: "El Diez", overlay: "stamp", year: "—", img: WM("Maradona_con_la_10_de_belgrano.jpg") },
+  { text: "El Diego", overlay: "paper", year: "—", img: "/moda-fotos/42-debut-tv-pele-noche-10.jpg" },
+  { text: "Si la gente me sigue queriendo", overlay: "warm", year: "2020", small: "Última entrevista", img: "/moda-fotos/54-perilla-conferencia.jpg" },
+  { text: "El fútbol me dio todo", overlay: "paper", year: "2020", img: "/moda-fotos/54-perilla-conferencia.jpg" },
+  { text: "Bailar con tu hermana", overlay: "stamp", year: "2001", small: "No poder patear al arco", img: "/moda-fotos/41-palco-bombonera.jpg" },
+  { text: "Fanático de Versace", overlay: "stamp", year: "90s", img: "/moda-fotos/71-versace-1.jpg" },
+  { text: "Versace forever", overlay: "blood", year: "90s", img: "/moda-fotos/71-versace-2.jpg" },
+  { text: "Camisa estampada", overlay: "sun", year: "90s", img: "/moda-fotos/71-versace-3.jpg" },
+  { text: "Cadenas de oro", overlay: "ink", year: "90s", img: "/moda-fotos/71-versace-8.jpg" },
+  { text: "Tapado de piel en Moscú", overlay: "ink", year: "1990", small: "2 AM Plaza Roja", img: "/moda-fotos/61-moscu-piel-1990.jpg" },
+  { text: "Boina rosa", overlay: "blood", year: "2018", small: "Mundial Rusia", img: WM("Maradona_in_Russia.jpg") },
+  { text: "Cannes", overlay: "ink", year: "2008", small: "Alfombra roja", img: "/moda-fotos/47-cannes-red-carpet.jpg" },
+  { text: "Sunga playa", overlay: "celeste", year: "80s", img: "/moda-fotos/19-sunga-playa-vacaciones.jpg" },
+  { text: "Vincha", overlay: "warm", year: "2000", img: "/moda-fotos/40-vincha.jpg" },
+  { text: "Rubio total", overlay: "sun", year: "1995", img: "/moda-fotos/37-rubio-total-grito.jpg" },
+  { text: "Abrigo blanco europeo", overlay: "paper", year: "80s", img: "/moda-fotos/22-abrigo-blanco-frio.jpg" },
+  { text: "Las 7 canchitas", overlay: "sun", year: "—", img: "/moda-fotos/01-cebollita.jpg" },
+  { text: "Cebollitas", overlay: "celeste", year: "1973–74", small: "Invicto 136 partidos", img: "/moda-fotos/01-cebollita.jpg" },
+  { text: "Argentinos Juniors", overlay: "paper", year: "1976–81", img: WM("Maradona_argentinos_vs_velez.jpg") },
+  { text: "Villa Fiorito", overlay: "warm", year: "—", img: "/moda-fotos/02-vacaciones-familia-1970.jpg" },
+  { text: "Diego Armando Maradona", overlay: "blood", year: "1960–2020", img: WM("Maradona-Mundial_86_con_la_copa.JPG") },
+  { text: "Pibe de Oro", overlay: "sun", year: "—", img: "/moda-fotos/09-pelo-corto-fleco-revista.jpg" },
+  { text: "Sabina y Charly", overlay: "warm", year: "2005", small: "La Noche del 10", img: "/moda-fotos/45-sabina-charly-noche-10.jpg" },
+  { text: "Bandera + puro habano", overlay: "blood", year: "2005", img: "/moda-fotos/49-tatuaje-che-puro-bandera.jpg" },
+  { text: "Castro en La Habana", overlay: "ink", year: "2000", img: "/moda-fotos/44-castro-habana.jpg" },
+  { text: "Chávez en Mar del Plata", overlay: "celeste", year: "2005", img: "/moda-fotos/43-chavez-mar-del-plata-2005.jpg" },
+  { text: "Premio Sport Oscar", overlay: "stamp", year: "1979", small: "Balón de Oro Sub-20", img: WM("Maradona_balon_oro_1979.jpg") },
+  { text: "Piazzolla en París", overlay: "warm", year: "1981", img: WM("Piazzolla_maradona_jairo_en_paris.jpg") },
+  { text: "Con Queen", overlay: "ink", year: "1981", img: WM("Freddie_Mercury_and_Diego_Maradona.jpg") },
 ];
 
-const VARIANT_CLASSES: Record<Variant, string> = {
-  paper: "bg-paper-warm text-ink border-ink",
-  blood: "bg-blood text-paper border-blood",
-  sun: "bg-sun text-ink border-ink",
-  celeste: "bg-celeste text-ink border-ink",
-  ink: "bg-ink text-paper border-ink",
-  warm: "bg-paper-deep text-sepia border-sepia",
-  stamp: "bg-paper text-blood border-blood",
-  ten: "bg-blood text-sun border-sun",
+const OVERLAY_CLASSES: Record<Overlay, { bg: string; text: string }> = {
+  paper: { bg: "bg-paper-warm/85", text: "text-ink" },
+  blood: { bg: "bg-blood/85", text: "text-paper" },
+  sun: { bg: "bg-sun/85", text: "text-ink" },
+  celeste: { bg: "bg-celeste/85", text: "text-ink" },
+  ink: { bg: "bg-ink/80", text: "text-paper" },
+  warm: { bg: "bg-paper-deep/80", text: "text-sepia" },
+  stamp: { bg: "bg-paper/80", text: "text-blood" },
+  ten: { bg: "bg-blood/85", text: "text-sun" },
 };
 
 function StickerCard({ s, i }: { s: Sticker; i: number }) {
-  const cls = VARIANT_CLASSES[s.variant];
-  const rotation = ((i * 37) % 5) - 2; // -2..+2 grados, pseudo-random estable
+  const cls = OVERLAY_CLASSES[s.overlay];
+  const rotation = ((i * 37) % 5) - 2;
   const isShort = s.text.length <= 14;
-  const isTen = s.variant === "ten";
-  const isStamp = s.variant === "stamp";
+  const isTen = s.overlay === "ten";
+  const isStamp = s.overlay === "stamp";
 
   return (
     <article
-      className={`relative aspect-square border-2 ${cls} p-4 flex flex-col justify-between overflow-hidden transition-transform hover:scale-[1.03] hover:z-10 shadow-[3px_3px_0_var(--color-sepia)] hover:shadow-[5px_5px_0_var(--color-blood)]`}
+      className="relative aspect-square overflow-hidden shadow-[3px_3px_0_var(--color-sepia)] hover:shadow-[5px_5px_0_var(--color-blood)] transition-transform hover:scale-[1.04] hover:z-10 border-2 border-ink"
       style={{ transform: `rotate(${rotation}deg)` }}
     >
-      {/* Watermark "10" background for "ten" variant */}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={s.img}
+        alt={s.text}
+        loading="lazy"
+        className="absolute inset-0 w-full h-full object-cover [filter:contrast(1.1)_saturate(0.9)_sepia(0.1)]"
+      />
+
+      <div className={`absolute inset-0 ${cls.bg}`} />
+
       {isTen && (
-        <span className="absolute inset-0 flex items-center justify-center text-[18rem] leading-none font-display font-black opacity-30 select-none pointer-events-none">
+        <span className="absolute inset-0 flex items-center justify-center text-[14rem] leading-none font-display font-black opacity-30 select-none pointer-events-none text-sun">
           10
         </span>
       )}
 
-      {/* Stamp double-border */}
       {isStamp && (
         <span className="absolute inset-2 border border-current pointer-events-none" />
       )}
 
-      {/* Top metadata */}
-      <div className="relative flex justify-between items-start text-[0.6rem] font-mono uppercase tracking-[0.14em] opacity-80">
-        <span>{s.year ?? "—"}</span>
-        <span>D·10·S</span>
+      <div className={`relative flex flex-col h-full ${cls.text}`}>
+        <div className="flex justify-between items-start p-3 text-[0.6rem] font-mono uppercase tracking-[0.14em] opacity-90">
+          <span>{s.year ?? "—"}</span>
+          <span>D·10·S</span>
+        </div>
+
+        <div className="flex-1 flex items-center justify-center text-center px-3">
+          <p
+            className={`font-display font-black leading-[0.95] drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)] ${
+              isShort
+                ? "text-[clamp(1.5rem,5vw,2.8rem)]"
+                : "text-[clamp(0.95rem,2.4vw,1.5rem)]"
+            }`}
+            style={{ fontVariationSettings: '"opsz" 144, "SOFT" 0, "WONK" 1' }}
+          >
+            {s.text}
+          </p>
+        </div>
+
+        <div className="p-3">
+          {s.small ? (
+            <p className="text-[0.62rem] font-mono uppercase tracking-[0.1em] opacity-95 text-center leading-tight drop-shadow-[0_1px_2px_rgba(0,0,0,0.4)]">
+              {s.small}
+            </p>
+          ) : (
+            <p className="text-[0.6rem] font-mono uppercase tracking-[0.14em] opacity-50 text-center">—</p>
+          )}
+        </div>
       </div>
-
-      {/* Main text */}
-      <div className="relative flex-1 flex items-center justify-center text-center px-1">
-        <p
-          className={`font-display font-black leading-[0.95] ${
-            isShort
-              ? "text-[clamp(1.5rem,5vw,2.75rem)]"
-              : "text-[clamp(0.95rem,2.2vw,1.4rem)]"
-          }`}
-          style={{ fontVariationSettings: '"opsz" 144, "SOFT" 0, "WONK" 1' }}
-        >
-          {s.text}
-        </p>
-      </div>
-
-      {/* Small caption */}
-      {s.small && (
-        <p className="relative text-[0.62rem] font-mono uppercase tracking-[0.1em] opacity-80 text-center leading-tight">
-          {s.small}
-        </p>
-      )}
-
-      {!s.small && (
-        <p className="relative text-[0.6rem] font-mono uppercase tracking-[0.14em] opacity-60 text-center">
-          —
-        </p>
-      )}
     </article>
   );
 }
 
 export default function StickersGalleryPage() {
   const wikiPages = getPagesByCategory("stickers");
-  const pageBySlug = new Map(wikiPages.map((p) => [p.slug, p]));
 
   return (
     <div className="fade-up">
@@ -262,40 +219,27 @@ export default function StickersGalleryPage() {
           Stickers
         </h1>
         <p className="font-display italic text-ink-soft mt-2 text-lg">
-          {STICKERS.length} piezas tipográficas · Hechas a mano para esta wiki
+          {STICKERS.length} piezas · Foto + frase
         </p>
         <div className="mt-4 mx-auto w-20 h-px bg-ink" />
         <p className="mt-3 font-mono text-[0.65rem] uppercase tracking-[0.14em] text-ink-muted max-w-md mx-auto">
-          Diseño in-house. Sin descargar packs con copyright. Click para entrar a la ficha.
+          Cada sticker = foto real de Diego + frase canónica overlay.
         </p>
       </div>
 
       <section className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mb-8">
-        {STICKERS.map((s, i) => {
-          const wikiPage = s.slug ? pageBySlug.get(s.slug) : null;
-          const href = wikiPage ? `/stickers/${wikiPage.slug}` : "#";
-          if (!wikiPage) {
-            return <StickerCard key={i} s={s} i={i} />;
-          }
-          return (
-            <Link key={i} href={href} className="block">
-              <StickerCard s={s} i={i} />
-            </Link>
-          );
-        })}
+        {STICKERS.map((s, i) => (
+          <StickerCard key={i} s={s} i={i} />
+        ))}
       </section>
 
-      {/* Vault references */}
       {wikiPages.length > 0 && (
         <section className="mt-12 pt-6 border-t-2 border-ink">
-          <h2 className="h-section text-xl mb-3">Fichas detalladas en el vault</h2>
+          <h2 className="h-section text-xl mb-3">Fichas detalladas</h2>
           <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 text-sm">
             {wikiPages.map((p) => (
               <li key={p.slug}>
-                <Link
-                  href={`/stickers/${p.slug}`}
-                  className="link-grow text-ink hover:text-blood"
-                >
+                <Link href={`/stickers/${p.slug}`} className="link-grow text-ink hover:text-blood">
                   {p.title}
                 </Link>
               </li>
@@ -303,10 +247,6 @@ export default function StickersGalleryPage() {
           </ul>
         </section>
       )}
-
-      <p className="mt-12 text-center font-mono text-[0.65rem] uppercase tracking-[0.14em] text-ink-muted">
-        Stickers diseñados con Fraunces · Paleta editorial vintage
-      </p>
     </div>
   );
 }
