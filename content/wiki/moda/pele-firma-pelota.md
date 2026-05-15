@@ -1,5 +1,5 @@
 ---
-tags: [moda, pelota, gesto-historico, pele, decada-70]
+tags: [moda, buzo-deportivo, gesto-historico, pele, decada-70]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1979"
 
 ## Descripción del look
 
-Pelé firmándole una pelota a Maradona. Pasaje de antorcha simbólico.
+Pelé firmando una pelota para Diego. Pasaje simbólico. Maradona con buzo, mochila adolescente.
 
 ## Tags
 
-`moda` · `pelota` · `gesto-historico` · `pele` · `decada-70`
+`moda` · `buzo-deportivo` · `gesto-historico` · `pele` · `decada-70`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Pelé firmándole una pelota a Maradona. Pasaje de antorcha simbólico.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3APele_signing_ball_maradona.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3APele_signing_ball_maradona.jpg). Licencia libre.

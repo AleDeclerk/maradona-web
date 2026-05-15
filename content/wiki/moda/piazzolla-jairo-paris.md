@@ -1,5 +1,5 @@
 ---
-tags: [moda, saco-formal, europa, piazzolla, jairo, paris, decada-80]
+tags: [moda, saco-europeo, camisa-abierta, europa, piazzolla, jairo, paris]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1981"
 
 ## Descripción del look
 
-Con Astor Piazzolla y Jairo en París. Cultura argentina en Europa.
+Con Astor Piazzolla y Jairo en París. Diego de saco oscuro y camisa abierta — primer 'look europeo'.
 
 ## Tags
 
-`moda` · `saco-formal` · `europa` · `piazzolla` · `jairo` · `paris` · `decada-80`
+`moda` · `saco-europeo` · `camisa-abierta` · `europa` · `piazzolla` · `jairo` · `paris`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Con Astor Piazzolla y Jairo en París. Cultura argentina en Europa.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3APiazzolla_maradona_jairo_en_paris.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3APiazzolla_maradona_jairo_en_paris.jpg). Licencia libre.

@@ -1,5 +1,5 @@
 ---
-tags: [moda, trofeo, gesto-iconico, sub-20, japon-1979]
+tags: [moda, uniforme-seleccion, gesto-iconico, sub-20, japon-1979]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1979"
 
 ## Descripción del look
 
-Maradona besa el trofeo del Sub-20. Primer beso a una copa mundial.
+Besando el trofeo Sub-20. Look del jugador en el podio.
 
 ## Tags
 
-`moda` · `trofeo` · `gesto-iconico` · `sub-20` · `japon-1979`
+`moda` · `uniforme-seleccion` · `gesto-iconico` · `sub-20` · `japon-1979`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Maradona besa el trofeo del Sub-20. Primer beso a una copa mundial.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona_besa_copa_1979.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona_besa_copa_1979.jpg). Licencia libre.

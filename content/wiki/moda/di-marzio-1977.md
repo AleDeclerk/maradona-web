@@ -1,5 +1,5 @@
 ---
-tags: [moda, casual, italia-temprana, argentinos-juniors, italia, decada-70]
+tags: [moda, camisa-casual, civil, argentinos-juniors, italia, decada-70]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1977"
 
 ## Descripción del look
 
-Con Gianni Di Marzio, periodista italiano. Primera vinculación con Italia.
+Con Gianni Di Marzio, periodista italiano. Look totalmente civil — primera vez que Italia mira al pibe. Camisa abierta, casual.
 
 ## Tags
 
-`moda` · `casual` · `italia-temprana` · `argentinos-juniors` · `italia` · `decada-70`
+`moda` · `camisa-casual` · `civil` · `argentinos-juniors` · `italia` · `decada-70`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Con Gianni Di Marzio, periodista italiano. Primera vinculación con Italia.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona_Gianni_Di_Marzio.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona_Gianni_Di_Marzio.jpg). Licencia libre.

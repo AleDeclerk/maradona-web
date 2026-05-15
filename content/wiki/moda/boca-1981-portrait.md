@@ -1,5 +1,5 @@
 ---
-tags: [moda, camiseta-boca, retrato, boca-juniors, decada-80]
+tags: [moda, camiseta-boca, retrato, pelo-largo, boca-juniors]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1981"
 
 ## Descripción del look
 
-Retrato con la camiseta de Boca.
+Retrato con la camiseta de Boca. Pelo largo planchado, mirada al frente. Foto-icono del Diez '81.
 
 ## Tags
 
-`moda` · `camiseta-boca` · `retrato` · `boca-juniors` · `decada-80`
+`moda` · `camiseta-boca` · `retrato` · `pelo-largo` · `boca-juniors`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Retrato con la camiseta de Boca.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona_boca_1981.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona_boca_1981.jpg). Licencia libre.

@@ -1,5 +1,5 @@
 ---
-tags: [moda, buzo-seleccion, banco, seleccion, decada-70]
+tags: [moda, buzo-seleccion, banco, pelo-corto, seleccion, decada-70]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1977"
 
 ## Descripción del look
 
-Sentado en el banco con la Selección. Buzo de entrenamiento.
+Sentado en el banco de la Selección. Buzo de entrenamiento clásico AFA. 16 años. Pelo lacio raya al costado.
 
 ## Tags
 
-`moda` · `buzo-seleccion` · `banco` · `seleccion` · `decada-70`
+`moda` · `buzo-seleccion` · `banco` · `pelo-corto` · `seleccion` · `decada-70`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Sentado en el banco con la Selección. Buzo de entrenamiento.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AArgentina_substitutes_maradona.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AArgentina_substitutes_maradona.jpg). Licencia libre.

@@ -1,5 +1,5 @@
 ---
-tags: [moda, dt, boca-juniors, marzolini, decada-80]
+tags: [moda, compañero-dt, casual, boca-juniors, marzolini]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1981"
 
 ## Descripción del look
 
-Con Silvio Marzolini, DT de Boca en 1981.
+Con Silvio Marzolini, DT de Boca. Diego en pantalón corto, Marzolini con sweater de DT.
 
 ## Tags
 
-`moda` · `dt` · `boca-juniors` · `marzolini` · `decada-80`
+`moda` · `compañero-dt` · `casual` · `boca-juniors` · `marzolini`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Con Silvio Marzolini, DT de Boca en 1981.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMarzolini_maradona_1981.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMarzolini_maradona_1981.jpg). Licencia libre.

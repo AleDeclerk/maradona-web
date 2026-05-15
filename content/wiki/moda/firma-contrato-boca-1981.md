@@ -1,5 +1,5 @@
 ---
-tags: [moda, pelo-largo, fleco, contrato, boca-juniors, transferencia, decada-80]
+tags: [moda, pelo-largo, saco-semiformal, contrato, boca-juniors, transferencia, decada-80]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1981"
 
 ## Descripción del look
 
-Firma del contrato con Boca el 20 de febrero de 1981. Pelo largo, fleco lateral.
+Firma el contrato con Boca. Pelo largo con fleco lateral, saco/chaleco semi formal.
 
 ## Tags
 
-`moda` · `pelo-largo` · `fleco` · `contrato` · `boca-juniors` · `transferencia` · `decada-80`
+`moda` · `pelo-largo` · `saco-semiformal` · `contrato` · `boca-juniors` · `transferencia` · `decada-80`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Firma del contrato con Boca el 20 de febrero de 1981. Pelo largo, fleco lateral.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona_firma_contrato_boca_1981.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona_firma_contrato_boca_1981.jpg). Licencia libre.

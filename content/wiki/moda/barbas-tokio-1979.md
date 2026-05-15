@@ -1,5 +1,5 @@
 ---
-tags: [moda, intimidad, concentracion, sub-20, japon-1979]
+tags: [moda, ropa-de-hotel, concentracion, sub-20, japon-1979]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1979"
 
 ## Descripción del look
 
-Diego y Juan Barbas en una habitación de hotel en Tokio. Intimidad de concentración.
+Con Juan Barbas en cuarto de hotel en Tokio. Habitación de concentración, ropa de descanso.
 
 ## Tags
 
-`moda` · `intimidad` · `concentracion` · `sub-20` · `japon-1979`
+`moda` · `ropa-de-hotel` · `concentracion` · `sub-20` · `japon-1979`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Diego y Juan Barbas en una habitación de hotel en Tokio. Intimidad de concentra
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ABarbas_y_maradona_habitacion_tokio.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ABarbas_y_maradona_habitacion_tokio.jpg). Licencia libre.

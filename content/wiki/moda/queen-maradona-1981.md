@@ -1,5 +1,5 @@
 ---
-tags: [moda, remera-casual, encuentro-cultural, queen, freddie-mercury, decada-80]
+tags: [moda, remera-rock, encuentro-cultural, decada-80, queen, freddie-mercury, rock]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1981"
 
 ## Descripción del look
 
-Con Freddie Mercury, Brian May, John Deacon y Roger Taylor en Buenos Aires.
+Con Freddie Mercury, Brian May, John Deacon y Roger Taylor. Diego con remera oscura, los Queen con su look new-wave años 80.
 
 ## Tags
 
-`moda` · `remera-casual` · `encuentro-cultural` · `queen` · `freddie-mercury` · `decada-80`
+`moda` · `remera-rock` · `encuentro-cultural` · `decada-80` · `queen` · `freddie-mercury` · `rock`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Con Freddie Mercury, Brian May, John Deacon y Roger Taylor en Buenos Aires.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ALos_miembros_de_Queen_junto_a_Diego_Maradona_en_Argentina,_1981_-_01.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ALos_miembros_de_Queen_junto_a_Diego_Maradona_en_Argentina,_1981_-_01.jpg). Licencia libre.

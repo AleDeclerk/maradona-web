@@ -1,5 +1,5 @@
 ---
-tags: [moda, celebracion, sub-20, japon-1979]
+tags: [moda, buzo-seleccion, celebracion, sub-20, japon-1979]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1979"
 
 ## Descripción del look
 
-Celebración tras ganar el Mundial Sub-20.
+Festejo tras ganar el Mundial Sub-20. Buzo abierto, juvenil despreocupado.
 
 ## Tags
 
-`moda` · `celebracion` · `sub-20` · `japon-1979`
+`moda` · `buzo-seleccion` · `celebracion` · `sub-20` · `japon-1979`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Celebración tras ganar el Mundial Sub-20.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona_fiesta_juvenil_1979.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona_fiesta_juvenil_1979.jpg). Licencia libre.

@@ -1,5 +1,5 @@
 ---
-tags: [moda, encuentro-cultural, rock, queen, freddie-mercury, decada-80]
+tags: [moda, encuentro-rock, queen, freddie-mercury]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1981"
 
 ## Descripción del look
 
-Con Freddie Mercury. Imagen icónica del encuentro Queen-Diego.
+Cara a cara con Freddie Mercury. Una de las fotos más improbables del año 81.
 
 ## Tags
 
-`moda` · `encuentro-cultural` · `rock` · `queen` · `freddie-mercury` · `decada-80`
+`moda` · `encuentro-rock` · `queen` · `freddie-mercury`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Con Freddie Mercury. Imagen icónica del encuentro Queen-Diego.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AFreddie_Mercury_and_Diego_Maradona.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AFreddie_Mercury_and_Diego_Maradona.jpg). Licencia libre.

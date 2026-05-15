@@ -17,7 +17,7 @@ year: "1986"
 
 ## Descripción del look
 
-Besando el escudo argentino. Gesto canónico.
+Besando el escudo argentino. Gesto canónico. Camiseta a rayas verticales celestes y blancas.
 
 ## Tags
 
@@ -30,4 +30,4 @@ Besando el escudo argentino. Gesto canónico.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona_besa_camiseta.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona_besa_camiseta.jpg). Licencia libre.

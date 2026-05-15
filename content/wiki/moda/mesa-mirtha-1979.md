@@ -1,5 +1,5 @@
 ---
-tags: [moda, tv, almuerzo, mirtha-legrand, tv-argentina]
+tags: [moda, saco-tv, almuerzo-tv, mirtha-legrand, tv-argentina]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1979"
 
 ## Descripción del look
 
-Apareció en almuerzo televisivo (Mirtha Legrand).
+Almuerzo en la mesa de Mirtha Legrand. Saco oscuro sobre camisa — primer 'smoking de almuerzo televisivo'.
 
 ## Tags
 
-`moda` · `tv` · `almuerzo` · `mirtha-legrand` · `tv-argentina`
+`moda` · `saco-tv` · `almuerzo-tv` · `mirtha-legrand` · `tv-argentina`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Apareció en almuerzo televisivo (Mirtha Legrand).
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMesa_mirta_1979.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMesa_mirta_1979.jpg). Licencia libre.

@@ -1,5 +1,5 @@
 ---
-tags: [moda, familia, padres, familia, fiorito]
+tags: [moda, familia, casual, padres, familia, fiorito]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1979"
 
 ## Descripción del look
 
-Con sus padres, Chitoro y Tota. Foto familiar.
+Con Chitoro y Tota, sus viejos. Look familiar: él con buzo o pulóver, los padres con la ropa de los días de visita.
 
 ## Tags
 
-`moda` · `familia` · `padres` · `familia` · `fiorito`
+`moda` · `familia` · `casual` · `padres` · `familia` · `fiorito`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Con sus padres, Chitoro y Tota. Foto familiar.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona-con-sus-padres-el-grito-del-sur.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona-con-sus-padres-el-grito-del-sur.jpg). Licencia libre.

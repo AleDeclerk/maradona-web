@@ -1,27 +1,27 @@
 ---
-tags: [moda, firma, autografo, iconografia]
+tags: [moda, firma, autografo, vector, iconografia]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
 fecha_actualizacion: 2026-05-15
 image: "https://commons.wikimedia.org/wiki/Special:FilePath/Diego_Maradona_(Signature).svg"
-year: "ND"
+year: "—"
 ---
 
 # Diego Maradona (Signature)
 
-**Año:** ND
+**Año:** —
 **Fuente:** [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ADiego_Maradona_(Signature).svg) (CC / dominio público)
 
 ![Diego Maradona (Signature)](https://commons.wikimedia.org/wiki/Special:FilePath/Diego_Maradona_(Signature).svg)
 
 ## Descripción del look
 
-Firma autógrafa de Maradona.
+Autógrafo de Maradona en vector. Letra grande, decidida. Iconografía gráfica usada en merchandising.
 
 ## Tags
 
-`moda` · `firma` · `autografo` · `iconografia`
+`moda` · `firma` · `autografo` · `vector` · `iconografia`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Firma autógrafa de Maradona.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ADiego_Maradona_(Signature).svg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ADiego_Maradona_(Signature).svg). Licencia libre.

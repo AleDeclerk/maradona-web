@@ -1,5 +1,5 @@
 ---
-tags: [moda, encuentro-internacional, rummenigge, decada-80]
+tags: [moda, saco-azul, encuentro-internacional, rummenigge]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1981"
 
 ## Descripción del look
 
-Con Karl-Heinz Rummenigge, alemán que ganaría el Balón de Oro.
+Con Karl-Heinz Rummenigge. Diego con saco azul, Rummenigge en saco beige. Encuentro de balones de oro.
 
 ## Tags
 
-`moda` · `encuentro-internacional` · `rummenigge` · `decada-80`
+`moda` · `saco-azul` · `encuentro-internacional` · `rummenigge`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Con Karl-Heinz Rummenigge, alemán que ganaría el Balón de Oro.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ARummenigge_maradona.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ARummenigge_maradona.jpg). Licencia libre.

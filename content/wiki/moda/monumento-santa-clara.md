@@ -1,5 +1,5 @@
 ---
-tags: [moda, monumento, bronce, post-mortem, iconografia]
+tags: [moda, estatua, bronce, monumento, post-mortem, iconografia]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "post-2020"
 
 ## Descripción del look
 
-Monumento a Maradona en Santa Clara del Mar.
+Monumento en Santa Clara del Mar. Maradona representado como estatua de bronce.
 
 ## Tags
 
-`moda` · `monumento` · `bronce` · `post-mortem` · `iconografia`
+`moda` · `estatua` · `bronce` · `monumento` · `post-mortem` · `iconografia`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Monumento a Maradona en Santa Clara del Mar.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMonumento_a_Diego_Maradona_en_Santa_Clara_del_Mar.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMonumento_a_Diego_Maradona_en_Santa_Clara_del_Mar.jpg). Licencia libre.

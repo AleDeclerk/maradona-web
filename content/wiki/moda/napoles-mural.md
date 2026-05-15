@@ -1,5 +1,5 @@
 ---
-tags: [moda, mural, altar, napoles, post-mortem]
+tags: [moda, mural, santo-popular, altar, napoles, post-mortem]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "post-2020"
 
 ## Descripción del look
 
-Mural callejero en Nápoles. Iconografía religiosa popular.
+Mural callejero en Quartieri Spagnoli, Nápoles. Maradona como santo popular napolitano — culto, velas, altares.
 
 ## Tags
 
-`moda` · `mural` · `altar` · `napoles` · `post-mortem`
+`moda` · `mural` · `santo-popular` · `altar` · `napoles` · `post-mortem`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Mural callejero en Nápoles. Iconografía religiosa popular.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AStreet_in_Napoli_(3).jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AStreet_in_Napoli_(3).jpg). Licencia libre.

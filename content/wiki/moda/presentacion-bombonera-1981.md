@@ -1,5 +1,5 @@
 ---
-tags: [moda, camiseta-boca, pelo-largo, boca-juniors, la-bombonera, decada-80]
+tags: [moda, camiseta-boca, pelo-largo, presentacion, boca-juniors, la-bombonera]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1981"
 
 ## Descripción del look
 
-Presentación en La Bombonera. Camiseta de Boca azul y oro clásica.
+Presentación en La Bombonera con la camiseta de Boca azul y oro. Look canónico: pelo largo, camiseta apretada.
 
 ## Tags
 
-`moda` · `camiseta-boca` · `pelo-largo` · `boca-juniors` · `la-bombonera` · `decada-80`
+`moda` · `camiseta-boca` · `pelo-largo` · `presentacion` · `boca-juniors` · `la-bombonera`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Presentación en La Bombonera. Camiseta de Boca azul y oro clásica.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona_presentacion_bombonera.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona_presentacion_bombonera.jpg). Licencia libre.

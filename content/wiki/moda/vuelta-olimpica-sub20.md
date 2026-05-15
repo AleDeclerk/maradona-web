@@ -1,5 +1,5 @@
 ---
-tags: [moda, camiseta-seleccion, vuelta-olimpica, sub-20, japon-1979]
+tags: [moda, buzo-seleccion, vuelta-olimpica, sub-20, japon-1979]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1979"
 
 ## Descripción del look
 
-Vuelta olímpica del plantel Sub-20 campeón.
+Vuelta olímpica con el plantel Sub-20. Diego en el centro con la copa, el grupo en buzo.
 
 ## Tags
 
-`moda` · `camiseta-seleccion` · `vuelta-olimpica` · `sub-20` · `japon-1979`
+`moda` · `buzo-seleccion` · `vuelta-olimpica` · `sub-20` · `japon-1979`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Vuelta olímpica del plantel Sub-20 campeón.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AArgentina_u20_maradona_vuelta.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AArgentina_u20_maradona_vuelta.jpg). Licencia libre.

@@ -1,5 +1,5 @@
 ---
-tags: [moda, casual, hermanos, familia, fiorito, decada-70]
+tags: [moda, casual, hermanos, pelo-corto, familia, fiorito, decada-70]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1977"
 
 ## Descripción del look
 
-Diego con su hermano Raúl 'Lalo' Maradona. Hermanos pibes en plenos años 70.
+Diego con su hermano Raúl 'Lalo' en pleno '77. Look casual de hermanos pibes: camperas deportivas livianas, pelo corto raya al medio.
 
 ## Tags
 
-`moda` · `casual` · `hermanos` · `familia` · `fiorito` · `decada-70`
+`moda` · `casual` · `hermanos` · `pelo-corto` · `familia` · `fiorito` · `decada-70`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Diego con su hermano Raúl 'Lalo' Maradona. Hermanos pibes en plenos años 70.
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ADiego_y_raul_maradona.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ADiego_y_raul_maradona.jpg). Licencia libre.

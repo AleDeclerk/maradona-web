@@ -1,5 +1,5 @@
 ---
-tags: [moda, balon-oro, trofeo, sub-20, japon-1979, juvenil]
+tags: [moda, blazer, trofeo, evento-formal, sub-20, japon-1979, juvenil]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
@@ -17,11 +17,11 @@ year: "1979"
 
 ## Descripción del look
 
-Maradona con el Balón de Oro del Mundial Sub-20 Japón. 18 años. Sonrisa abierta.
+Con el Balón de Oro del Mundial Sub-20 Japón. Saco/blazer formal sobre camisa — primer atuendo 'de evento' a los 18 años.
 
 ## Tags
 
-`moda` · `balon-oro` · `trofeo` · `sub-20` · `japon-1979` · `juvenil`
+`moda` · `blazer` · `trofeo` · `evento-formal` · `sub-20` · `japon-1979` · `juvenil`
 
 ## Relaciones
 
@@ -30,4 +30,4 @@ Maradona con el Balón de Oro del Mundial Sub-20 Japón. 18 años. Sonrisa abier
 
 ## Crédito
 
-Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona_balon_oro_1979.jpg). Licencia libre. Consultar página original para atribución exacta.
+Imagen de [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AMaradona_balon_oro_1979.jpg). Licencia libre.
