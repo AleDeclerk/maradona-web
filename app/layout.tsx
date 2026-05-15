@@ -38,6 +38,8 @@ const SHORT_NAV: Array<[string, string]> = [
   ["epocas", "Épocas"],
   ["temas", "Temas"],
   ["frases", "Frases"],
+  ["moda", "Moda"],
+  ["stickers", "Stickers"],
   ["fuentes", "Fuentes"],
 ];
 

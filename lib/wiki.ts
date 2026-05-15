@@ -9,9 +9,11 @@ export const CATEGORIES = [
   "epocas",
   "frases",
   "fuentes",
+  "moda",
   "momentos",
   "partidos",
   "personas",
+  "stickers",
   "temas",
 ] as const;
 
@@ -37,9 +39,11 @@ const CATEGORY_LABELS: Record<Category, string> = {
   epocas: "Épocas",
   frases: "Frases",
   fuentes: "Fuentes",
+  moda: "Moda y look",
   momentos: "Momentos",
   partidos: "Partidos",
   personas: "Personas",
+  stickers: "Stickers",
   temas: "Temas",
 };
 

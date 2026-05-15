@@ -222,6 +222,23 @@ body > * { position: relative; z-index: 2; }
   font-style: italic;
 }
 
+/* Imágenes en moda/ */
+.prose-edit img {
+  display: block;
+  max-width: 100%;
+  margin: 1.5rem auto;
+  border: 1px solid var(--color-rule);
+  background: var(--color-paper-warm);
+  padding: 0.4rem;
+  box-shadow: 4px 4px 0 var(--color-sepia);
+  filter: sepia(0.08) saturate(0.9);
+  transition: filter 200ms ease, transform 200ms ease;
+}
+.prose-edit img:hover {
+  filter: none;
+  transform: rotate(-0.4deg) scale(1.005);
+}
+
 .prose-edit table {
   width: 100%;
   border-collapse: collapse;
