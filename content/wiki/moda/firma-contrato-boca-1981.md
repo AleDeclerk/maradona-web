@@ -1,9 +1,11 @@
 ---
-tags: [moda, pelo-largo, fleco, saco, boca-juniors, transferencia, decada-80]
+tags: [moda, pelo-largo, fleco, contrato, boca-juniors, transferencia, decada-80]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
 fecha_actualizacion: 2026-05-15
+image: "https://commons.wikimedia.org/wiki/Special:FilePath/Maradona_firma_contrato_boca_1981.jpg"
+year: "1981"
 ---
 
 # Maradona firma contrato boca 1981
@@ -15,11 +17,11 @@ fecha_actualizacion: 2026-05-15
 
 ## Descripción del look
 
-Firma del contrato con Boca Juniors el 20 de febrero de 1981. Pelo largo, fleco hacia un costado, look de rockstar argentino de los 80. Saco deportivo o pulóver según la versión.
+Firma del contrato con Boca el 20 de febrero de 1981. Pelo largo, fleco lateral.
 
 ## Tags
 
-`moda` · `pelo-largo` · `fleco` · `saco` · `boca-juniors` · `transferencia` · `decada-80`
+`moda` · `pelo-largo` · `fleco` · `contrato` · `boca-juniors` · `transferencia` · `decada-80`
 
 ## Relaciones
 

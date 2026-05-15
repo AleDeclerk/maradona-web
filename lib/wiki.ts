@@ -28,6 +28,8 @@ export interface PageMeta {
   fuentes: string[];
   fecha_creacion: string;
   fecha_actualizacion: string;
+  image?: string;
+  year?: string;
 }
 
 export interface Page extends PageMeta {
@@ -85,6 +87,8 @@ export function getAllPages(): Page[] {
         fuentes: Array.isArray(data.fuentes) ? (data.fuentes as string[]) : [],
         fecha_creacion: toDateStr(data.fecha_creacion),
         fecha_actualizacion: toDateStr(data.fecha_actualizacion),
+        image: typeof data.image === "string" ? data.image : undefined,
+        year: typeof data.year === "string" ? data.year : undefined,
         content: parsed.content,
       });
     }

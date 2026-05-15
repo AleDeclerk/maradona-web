@@ -1,9 +1,11 @@
 ---
-tags: [moda, camiseta-boca, pelo-largo, presentacion, boca-juniors, la-bombonera, decada-80]
+tags: [moda, camiseta-boca, pelo-largo, boca-juniors, la-bombonera, decada-80]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
 fecha_actualizacion: 2026-05-15
+image: "https://commons.wikimedia.org/wiki/Special:FilePath/Maradona_presentacion_bombonera.jpg"
+year: "1981"
 ---
 
 # Maradona presentacion bombonera
@@ -15,11 +17,11 @@ fecha_actualizacion: 2026-05-15
 
 ## Descripción del look
 
-Presentación en La Bombonera. Camiseta de Boca azul y oro, modelo clásico de algodón pesado. Pelo largo característico de la era 81.
+Presentación en La Bombonera. Camiseta de Boca azul y oro clásica.
 
 ## Tags
 
-`moda` · `camiseta-boca` · `pelo-largo` · `presentacion` · `boca-juniors` · `la-bombonera` · `decada-80`
+`moda` · `camiseta-boca` · `pelo-largo` · `boca-juniors` · `la-bombonera` · `decada-80`
 
 ## Relaciones
 

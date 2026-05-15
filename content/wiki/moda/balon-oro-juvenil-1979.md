@@ -1,9 +1,11 @@
 ---
-tags: [moda, balon-oro, gorro, trofeo, sub-20, japon-1979, juvenil]
+tags: [moda, balon-oro, trofeo, sub-20, japon-1979, juvenil]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
 fecha_actualizacion: 2026-05-15
+image: "https://commons.wikimedia.org/wiki/Special:FilePath/Maradona_balon_oro_1979.jpg"
+year: "1979"
 ---
 
 # Maradona balon oro 1979
@@ -15,11 +17,11 @@ fecha_actualizacion: 2026-05-15
 
 ## Descripción del look
 
-Maradona con el Balón de Oro del Mundial Sub-20 Japón. 18 años. Look juvenil, sonrisa abierta, gorro de tela informal.
+Maradona con el Balón de Oro del Mundial Sub-20 Japón. 18 años. Sonrisa abierta.
 
 ## Tags
 
-`moda` · `balon-oro` · `gorro` · `trofeo` · `sub-20` · `japon-1979` · `juvenil`
+`moda` · `balon-oro` · `trofeo` · `sub-20` · `japon-1979` · `juvenil`
 
 ## Relaciones
 

@@ -1,9 +1,11 @@
 ---
-tags: [moda, buzo-deportivo, encuentro-historico, pele, elgrafico, decada-70]
+tags: [moda, encuentro-historico, pele, elgrafico, decada-70]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
 fecha_actualizacion: 2026-05-15
+image: "https://commons.wikimedia.org/wiki/Special:FilePath/Maradona_pele_elgrafico.jpg"
+year: "1979"
 ---
 
 # Maradona pele elgrafico
@@ -15,11 +17,11 @@ fecha_actualizacion: 2026-05-15
 
 ## Descripción del look
 
-Maradona y Pelé en El Gráfico. Encuentro generacional histórico. Maradona con buzo deportivo simple, Pelé en saco.
+Maradona y Pelé para El Gráfico. Encuentro generacional.
 
 ## Tags
 
-`moda` · `buzo-deportivo` · `encuentro-historico` · `pele` · `elgrafico` · `decada-70`
+`moda` · `encuentro-historico` · `pele` · `elgrafico` · `decada-70`
 
 ## Relaciones
 

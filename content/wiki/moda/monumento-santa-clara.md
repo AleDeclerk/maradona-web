@@ -1,9 +1,11 @@
 ---
-tags: [moda, monumento, bronce, post-mortem, cultura-popular, iconografia]
+tags: [moda, monumento, bronce, post-mortem, iconografia]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
 fecha_actualizacion: 2026-05-15
+image: "https://commons.wikimedia.org/wiki/Special:FilePath/Monumento_a_Diego_Maradona_en_Santa_Clara_del_Mar.jpg"
+year: "post-2020"
 ---
 
 # Monumento a Diego Maradona en Santa Clara del Mar
@@ -15,11 +17,11 @@ fecha_actualizacion: 2026-05-15
 
 ## Descripción del look
 
-Monumento a Maradona en Santa Clara del Mar, Provincia de Buenos Aires. Bronce. Look monumental, no su look real — pero da una idea de cómo lo recuerda la cultura popular argentina.
+Monumento a Maradona en Santa Clara del Mar.
 
 ## Tags
 
-`moda` · `monumento` · `bronce` · `post-mortem` · `cultura-popular` · `iconografia`
+`moda` · `monumento` · `bronce` · `post-mortem` · `iconografia`
 
 ## Relaciones
 

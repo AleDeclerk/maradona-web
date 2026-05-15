@@ -4,6 +4,8 @@ tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
 fecha_actualizacion: 2026-05-15
+image: "https://commons.wikimedia.org/wiki/Special:FilePath/Maradona_besa_camiseta.jpg"
+year: "1986"
 ---
 
 # Maradona besa camiseta
@@ -15,7 +17,7 @@ fecha_actualizacion: 2026-05-15
 
 ## Descripción del look
 
-Maradona besando el escudo argentino. Gesto canónico que pasó a la iconografía del fútbol mundial.
+Besando el escudo argentino. Gesto canónico.
 
 ## Tags
 

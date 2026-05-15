@@ -4,6 +4,8 @@ tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
 fecha_actualizacion: 2026-05-15
+image: "https://commons.wikimedia.org/wiki/Special:FilePath/Diego_y_raul_maradona.jpg"
+year: "1977"
 ---
 
 # Diego y raul maradona
@@ -15,7 +17,7 @@ fecha_actualizacion: 2026-05-15
 
 ## Descripción del look
 
-Diego con su hermano Raúl 'Lalo' Maradona. Look casual de hermanos jóvenes en plenos años 70 — camperas estilo deportivo, peinados rectos.
+Diego con su hermano Raúl 'Lalo' Maradona. Hermanos pibes en plenos años 70.
 
 ## Tags
 

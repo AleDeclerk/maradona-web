@@ -4,6 +4,8 @@ tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
 fecha_actualizacion: 2026-05-15
+image: "https://commons.wikimedia.org/wiki/Special:FilePath/Diego_Maradona_celebrando_la_obtenci%25C3%25B3n_del_Torneo_Metropolitano_de_1981.jpg"
+year: "1981"
 ---
 
 # Diego Maradona celebrando la obtenci%C3%B3n del Torneo Metropolitano de 1981
@@ -15,7 +17,7 @@ fecha_actualizacion: 2026-05-15
 
 ## Descripción del look
 
-Celebrando el Metropolitano 1981, su único título argentino. Camiseta de Boca, pelo largo desordenado, brazos al cielo.
+Celebrando el Metropolitano 1981, su único título argentino.
 
 ## Tags
 

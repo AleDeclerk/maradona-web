@@ -1,9 +1,11 @@
 ---
-tags: [moda, camiseta-seleccion-azul, salto, puno-izquierdo, mano-de-dios, inglaterra-86, azteca, mundial-86]
+tags: [moda, camiseta-seleccion-azul, salto, puno-izquierdo, mano-de-dios, inglaterra-86, azteca]
 tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
 fecha_actualizacion: 2026-05-15
+image: "https://commons.wikimedia.org/wiki/Special:FilePath/Maradona_mano_de_dios.jpg"
+year: "1986"
 ---
 
 # Maradona mano de dios
@@ -15,11 +17,11 @@ fecha_actualizacion: 2026-05-15
 
 ## Descripción del look
 
-La Mano de Dios — minuto 51 vs. Inglaterra el 22 de junio de 1986 en el Azteca. Camiseta azul argentina, Diego saltando con el puño izquierdo. Una de las imágenes más reproducidas del fútbol mundial.
+La Mano de Dios — minuto 51 vs. Inglaterra el 22 de junio de 1986.
 
 ## Tags
 
-`moda` · `camiseta-seleccion-azul` · `salto` · `puno-izquierdo` · `mano-de-dios` · `inglaterra-86` · `azteca` · `mundial-86`
+`moda` · `camiseta-seleccion-azul` · `salto` · `puno-izquierdo` · `mano-de-dios` · `inglaterra-86` · `azteca`
 
 ## Relaciones
 

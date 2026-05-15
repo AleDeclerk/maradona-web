@@ -4,6 +4,8 @@ tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
 fecha_actualizacion: 2026-05-15
+image: "https://commons.wikimedia.org/wiki/Special:FilePath/Argentina_u20_1979.jpg"
+year: "1979"
 ---
 
 # Argentina u20 1979
@@ -15,7 +17,7 @@ fecha_actualizacion: 2026-05-15
 
 ## Descripción del look
 
-Plantel campeón del Sub-20 con Maradona. Buzo de la Selección clásico, look de equipo. Antes de la consagración mundialista de 1986.
+Plantel campeón del Sub-20 con Maradona. Buzo de la Selección clásico.
 
 ## Tags
 

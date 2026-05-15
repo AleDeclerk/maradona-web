@@ -4,6 +4,8 @@ tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
 fecha_actualizacion: 2026-05-15
+image: "https://commons.wikimedia.org/wiki/Special:FilePath/Maradona_debut_seleccion.jpg"
+year: "1977"
 ---
 
 # Maradona debut seleccion
@@ -15,7 +17,7 @@ fecha_actualizacion: 2026-05-15
 
 ## Descripción del look
 
-Debut con la Selección Argentina (27 de febrero de 1977). Camiseta albiceleste a rayas verticales clásicas. Pelo corto, raya al medio, look de pibe del barrio que recién llega al ascenso.
+Debut con la Selección Argentina (27 de febrero de 1977). Camiseta albiceleste a rayas verticales clásicas. 16 años recién cumplidos.
 
 ## Tags
 

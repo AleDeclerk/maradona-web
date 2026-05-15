@@ -4,6 +4,8 @@ tipo: moda
 fuentes: ["wikimedia-commons"]
 fecha_creacion: 2026-05-15
 fecha_actualizacion: 2026-05-15
+image: "https://commons.wikimedia.org/wiki/Special:FilePath/Argentina_celebrando_copa.jpg"
+year: "1986"
 ---
 
 # Argentina celebrando copa
@@ -15,7 +17,7 @@ fecha_actualizacion: 2026-05-15
 
 ## Descripción del look
 
-Argentina celebra el Mundial México 86 con la Copa. Maradona en el centro de la imagen, capitán a los 25 años. Buzo de entrenamiento de la Selección.
+Argentina celebra el Mundial México 86 con la Copa.
 
 ## Tags
 
